@@ -15,7 +15,7 @@ const Homepage = ({setevent}) => {
     <div className='text-2xl text-blue-700 font-bold text-center mt-20 underline' id="events">Events</div>
     
     <div className='flex flex-col my-10 gap-10'>
-      <div className='flex flex-row gap-24 justify-center'>
+      <div className='flex flex-row gap-24 justify-center border-b-2 border-blue-500'>
       <div className='px-4 bg-slate-700 py-2 border-4 border-blue-500 rounded-lg shadow-lg flex flex-col items-center'>
           <div className='text-xl text-center capitalize text-blue-300'>technical</div>
          {tevent?

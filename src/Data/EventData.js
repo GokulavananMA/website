@@ -1,0 +1,63 @@
+export const data=[{
+    name:"papaer presentation",
+    posterlink:"",
+    description:"des",
+    staffcoordinator:{name:"hwloo",phno:"5214565"},
+    studentcoordinator:{name:"holl",phno:"4524"}
+},
+{
+    name:"",
+    posterlink:"",
+    description:"",
+    staffcoordinator:{name:"",phno:""},
+    studentcoordinator:{name:"",phno:""}
+},
+{
+    name:"",
+    posterlink:"",
+    description:"",
+    staffcoordinator:{name:"",phno:""},
+    studentcoordinator:{name:"",phno:""}
+},
+{
+    name:"",
+    posterlink:"",
+    description:"",
+    staffcoordinator:{name:"",phno:""},
+    studentcoordinator:{name:"",phno:""}
+},
+{
+    name:"",
+    posterlink:"",
+    description:"",
+    staffcoordinator:{name:"",phno:""},
+    studentcoordinator:{name:"",phno:""}
+},
+{
+    name:"",
+    posterlink:"",
+    description:"",
+    staffcoordinator:{name:"",phno:""},
+    studentcoordinator:{name:"",phno:""}
+},
+{
+    name:"",
+    posterlink:"",
+    description:"",
+    staffcoordinator:{name:"",phno:""},
+    studentcoordinator:{name:"",phno:""}
+},
+{
+    name:"",
+    posterlink:"",
+    description:"",
+    staffcoordinator:{name:"",phno:""},
+    studentcoordinator:{name:"",phno:""}
+},
+{
+    name:"",
+    posterlink:"",
+    description:"",
+    staffcoordinator:{name:"",phno:""},
+    studentcoordinator:{name:"",phno:""}
+}]

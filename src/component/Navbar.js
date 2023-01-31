@@ -31,8 +31,8 @@ const Navbar = () => {
         <div className='flex flex-col gap-4 md:hidden'>    
             {path==="/"?
             <>
-            <a href='#tevents'>Technical events</a>
-            <a href='#ntevents'>Non-technical events</a>
+            <a href='#events'>Events</a>
+            <a href='#sponsors'>Sponsers</a>
             <a href='#contacts'>Contacts</a>
             </>
             :
@@ -49,8 +49,8 @@ const Navbar = () => {
         <div className='md:flex flex-row gap-4 hidden'>    
         {path==="/"?
             <>
-            <a href='#tevents'>Technical events</a>
-            <a href='#ntevents'>Non-technical events</a>
+            <a href='#events'>Events</a>
+            <a href='#sponsors'>Sponsers</a>
             <a href='#contacts'>Contacts</a>
             </>
             :

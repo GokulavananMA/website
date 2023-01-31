@@ -14,9 +14,9 @@ const Homepage = ({setevent}) => {
 
     <div className='text-2xl text-blue-700 font-bold text-center mt-20 underline' id="events">Events</div>
     
-    <div className='flex flex-col my-10 gap-10'>
-      <div className='flex flex-row gap-24 justify-center border-b-2 border-blue-500'>
-      <div className='px-4 bg-slate-700 py-2 border-4 border-blue-500 rounded-lg shadow-lg flex flex-col items-center'>
+    <div className='flex flex-col my-10 gap-2 md:gap-10'>
+      <div className='flex flex-row gap-10 justify-center'>
+      <div className='px-10 bg-slate-700 py-2 border-4 border-blue-500 rounded-lg shadow-lg flex flex-col items-center w-100'>
           <div className='text-xl text-center capitalize text-blue-300'>technical</div>
          {tevent?
           <div className='flex flex-col text-white text-center mt-4 mb-3 md:hidden'>
@@ -36,8 +36,9 @@ const Homepage = ({setevent}) => {
           <Link to="/events" className='hover:text-blue-500 hover:font-bold' onClick={()=>setevent(4)}>Robo Racing (Line Follower)</Link>
         </div>
       </div>
+          <hr className='border-4 border-blue-600 mb-10 md:hidden rounded-xl'/>
 
-      <div className='flex flex-row gap-24 justify-center'>
+      <div className='flex flex-row gap-10 justify-center'>
       <div className='hidden md:flex flex-col text-white text-right border-r-2 border-blue-600 pr-4  mt-4 mb-3'>
           <Link to="/events" className='hover:text-blue-500 hover:font-bold' onClick={()=>setevent(5)}>Connection</Link>
           <Link to="/events" className='hover:text-blue-500 hover:font-bold' onClick={()=>setevent(6)}>Photography (Online)</Link>
@@ -45,7 +46,7 @@ const Homepage = ({setevent}) => {
           <Link to="/events" className='hover:text-blue-500 hover:font-bold' onClick={()=>setevent(8)}>Gaming</Link>
         </div>
 
-      <div className='px-4 bg-slate-700 py-2 border-4 border-blue-500 rounded-lg shadow-lg flex flex-col items-center'>
+      <div className='px-10 bg-slate-700 py-2 border-4 border-blue-500 rounded-lg shadow-lg flex flex-col items-center'>
           <div className='text-xl text-center capitalize text-blue-300'>Non technical</div>
          {ntevent?
           <div className='flex flex-col text-white text-center mt-4 mb-3 md:hidden'>
@@ -60,8 +61,8 @@ const Homepage = ({setevent}) => {
       </div>
       
       </div>
-
-
+          <hr className='border-4 border-blue-600 mb-10 md:hidden rounded-xl'/>
+        
         <div className='mt-10 px-4 bg-slate-700 py-2 border-4 border-blue-400 rounded-lg shadow-lg flex flex-col items-center' id="ntevents">
           <div className='text-xl text-center capitalize text-blue-300'>workshop</div>
           <div className='text-center mt-4 mb-3'>des</div>

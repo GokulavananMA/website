@@ -8,6 +8,14 @@ const Eventpage = ({event}) => {
       <div className='text-bold text-center text-blue-400'>{data[event-1].name}</div>
       <p className='text-center text-white'>{data[event-1].description}</p>
 
+      <div className='flex flex-col py-20'>
+        <div className='text-blue-400 text-center text-xl font-bold'>
+          Rules
+        </div>
+        <div className=''></div>
+
+      </div>
+
       <div className='flex flex-col md:flex-row text-white gap-3 md:gap-20'>
         <div>
           <h1 className='text-blue-500'>Staff Coordinator</h1>

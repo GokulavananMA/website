@@ -1,7 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { useState } from 'react'
 
 const Homepage = ({setevent}) => {
+  const [ntevent, setntevent] = useState(false)
+  const [tevent, settevent] = useState(false)
   return (
     <div className='flex flex-col items-center px-5 py-10 gap-2'>
       <div className='text-blue-200 font-bold text-2xl text-center'>Surge 2023</div>
@@ -11,26 +14,49 @@ const Homepage = ({setevent}) => {
 
     <div className='text-2xl text-blue-700 font-bold text-center mt-20 underline'>Events</div>
     <div className='flex flex-col md:flex-row gap-10'>
-      <div className='mt-10 px-4 bg-slate-700 py-2 border-4 border-blue-500 rounded-lg shadow-lg' id="tevents">
+      <div className='mt-10 px-4 bg-slate-700 py-2 border-4 border-blue-500 rounded-lg shadow-lg flex flex-col items-center' id="tevents">
           <div className='text-xl text-center capitalize text-blue-300'>technical</div>
-          <div className='flex flex-col text-white text-center mt-6'>
-            <Link to="/events" className='hover:text-blue-500 hover:font-bold' onClick={()=>setevent(1)}>Paper presentation</Link>
-            <Link to="/events" className='hover:text-blue-500 hover:font-bold' onClick={()=>setevent(2)}>Circuit Debug</Link>
-            <Link to="/events" className='hover:text-blue-500 hover:font-bold' onClick={()=>setevent(3)}>Project Diplay</Link>
-            <Link to="/events" className='hover:text-blue-500 hover:font-bold' onClick={()=>setevent(4)}>Robo Racing (Line Follower)</Link>
-          </div>
+         {tevent?
+          <div className='flex flex-col text-white text-center mt-4 mb-3'>
+          <Link to="/events" className='hover:text-blue-500 hover:font-bold' onClick={()=>setevent(1)}>Paper presentation</Link>
+          <Link to="/events" className='hover:text-blue-500 hover:font-bold' onClick={()=>setevent(2)}>Circuit Debug</Link>
+          <Link to="/events" className='hover:text-blue-500 hover:font-bold' onClick={()=>setevent(3)}>Project Diplay</Link>
+          <Link to="/events" className='hover:text-blue-500 hover:font-bold' onClick={()=>setevent(4)}>Robo Racing (Line Follower)</Link>
+        </div>:
+        <div className='text-center mt-4 mb-3'>des</div>}
+        <button onClick={()=>settevent(!tevent)} className='py-1 px-2 bg-blue-500 rounded-lg'>view</button>
       </div>
 
-      <div className='mt-10 px-4 bg-slate-700 py-2 border-4 border-blue-400 rounded-lg shadow-lg' id="ntevents">
+      <div className='mt-10 px-4 bg-slate-700 py-2 border-4 border-blue-400 rounded-lg shadow-lg flex flex-col items-center' id="ntevents">
           <div className='text-xl text-center capitalize text-blue-300'>non technical</div>
-          <div className='flex flex-col text-white text-center mt-6'>
-            <Link to="/events" className='hover:text-blue-500 hover:font-bold' onClick={()=>setevent(5)}>Paper presentation</Link>
-            <Link to="/events" className='hover:text-blue-500 hover:font-bold' onClick={()=>setevent(6)}>Circuit Debug</Link>
-            <Link to="/events" className='hover:text-blue-500 hover:font-bold' onClick={()=>setevent(7)}>Project Diplay</Link>
-            <Link to="/events" className='hover:text-blue-500 hover:font-bold' onClick={()=>setevent(8)}>Robo Racing (Line Follower)</Link>
-          </div>
-      </div>
+          {ntevent?
+          <div className='flex flex-col text-white text-center mt-4 mb-3'>
+          <Link to="/events" className='hover:text-blue-500 hover:font-bold' onClick={()=>setevent(5)}>Paper presentation</Link>
+          <Link to="/events" className='hover:text-blue-500 hover:font-bold' onClick={()=>setevent(6)}>Circuit Debug</Link>
+          <Link to="/events" className='hover:text-blue-500 hover:font-bold' onClick={()=>setevent(7)}>Project Diplay</Link>
+          <Link to="/events" className='hover:text-blue-500 hover:font-bold' onClick={()=>setevent(8)}>Robo Racing (Line Follower)</Link>
+        </div>:
+        <div className='text-center mt-4 mb-3'>
+          des
+          </div>}
+          <button onClick={()=>setntevent(!ntevent)} className='py-1 px-2 bg-blue-500 rounded-lg'>view</button>
+        </div>
+
+        <div className='mt-10 px-4 bg-slate-700 py-2 border-4 border-blue-400 rounded-lg shadow-lg flex flex-col items-center' id="ntevents">
+          <div className='text-xl text-center capitalize text-blue-300'>workshop</div>
+          <div className='text-center mt-4 mb-3'>des</div>
+          <a href="v" className='py-1 px-2 bg-blue-500 rounded-lg'>Register</a>
+        </div>
     </div>
+
+    {/* <div class="flex flex-col md:flex-row">
+  <div class="md:w-32">
+    <h2 class="text-lg font-medium md:text-xl md:my-auto">Title</h2>
+  </div>
+  <div>Your content here</div>
+</div> */}
+
+
     <div className='text-center underline text-2xl capitalize font-bold text-blue-700 mt-20' id="contacts">Contacts</div>
     <div className='flex flex-col md:flex-row gap-10'>
       <div>

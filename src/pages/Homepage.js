@@ -92,7 +92,7 @@ const Homepage = ({setevent,refContainer}) => {
         <div className=''>phno</div>
       </div>
     </div>
-    <div className='flex flex-row gap-4 bg-slate-800 border-4 border-blue-400 w-4/5 lg:2/5 justify-between rounded-lg mt-10 px-5 py-3'>
+    <div className='flex flex-row gap-4 w-100 md:w-1/4 lg:2/5 justify-between rounded-lg mt-20 px-5 py-3'>
     <a href='vv' target="__blank"><img className='h-5 w-5 hover:border-4 rounded-lg md:h-10 md:w-10' src='https://cdn-icons-png.flaticon.com/512/2111/2111463.png' alt="logo"/></a>
     <a href='vv' target="__blank"><img className='h-5 w-5 hover:border-4 rounded-lg md:h-10 md:w-10' src='https://cdn-icons-png.flaticon.com/512/3938/3938026.png' alt="logo"/></a>
     <a href='vv' target="__blank"><img className='h-5 w-5 hover:border-4 rounded-lg md:h-10 md:w-10' src='https://cdn-icons-png.flaticon.com/512/733/733547.png' alt="logo"/></a>

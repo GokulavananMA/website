@@ -2,6 +2,7 @@ import React from 'react'
 import { data } from '../Data/EventData'
 
 const Eventpage = ({event}) => {
+  console.log(event)
   return (
     <div className='flex flex-col items-center px-5 py-10 gap-4'>
       <img src={data[event-1].posterlink} alt="poster"/>

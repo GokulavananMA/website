@@ -2,16 +2,18 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
 
-const Homepage = ({setevent}) => {
+const Homepage = ({setevent,refContainer}) => {
   const [ntevent, setntevent] = useState(false)
   const [tevent, settevent] = useState(false)
   return (
-    <div className='flex flex-col items-center px-5 py-10 gap-2'>
+    <div className='flex flex-col items-center px-5 py-10 gap-2' ref={refContainer}>
+    
       <div className='text-blue-200 font-bold text-2xl text-center'>Surge 2023</div>
       <div className='text-blue-100 text-lg text-center'>Velammal Engineering College</div>
       <div className='text-blue-600 text-xl text-center'>EEE</div>
       <p className='mt-6 text-center sm:px-5 md:px-20 text-white'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
-
+     
+      
     <div className='text-2xl text-blue-700 font-bold text-center mt-20 underline' id="events">Events</div>
     
     <div className='flex flex-col my-10 gap-2 md:gap-10'>
@@ -70,10 +72,10 @@ const Homepage = ({setevent}) => {
         </div>
     </div>
 
-    <div class="flex flex-col lg:flex-row my-20">
-  <h1 class="text-2xl lg:text-4xl font-bold text-center md:self-start md:transform md:-rotate-90 text-blue-600" id="sponsors">Sponsers</h1>
-  <div class="p-6 md:ml-10 md:self-center">
-    <p class="text-lg">Content block goes here.</p>
+    <div className="flex flex-col lg:flex-row my-20">
+  <h1 className="text-2xl lg:text-4xl font-bold text-center md:self-start md:transform md:-rotate-90 text-blue-600" id="sponsors">Sponsers</h1>
+  <div className="p-6 md:ml-10 md:self-center">
+    <p className="text-lg">Content block goes here.</p>
   </div>
 </div>
 

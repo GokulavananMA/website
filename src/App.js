@@ -6,12 +6,13 @@ import Background from "./component/Background";
 import { useState } from "react";
 
 function App() {
-  const [event, setevent] = useState({})
+  const [event, setevent] = useState()
 
   return (
-    <div className="text-slate-200">
+    <div className="relative text-slate-200 min-h-screen max-h-screen bg-slate-900">
+   
     <Background/>
-      <div className="absolute top-0 left-0">
+      <div className="relative z-10">
         
       <Router>  
       <Navbar/>
@@ -22,6 +23,7 @@ function App() {
       </Routes>
       </Router>
       </div>
+     
     </div>
   );
 }

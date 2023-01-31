@@ -8,7 +8,6 @@ const Navbar = () => {
     const [show, setshow] = useState(false)
     const loc=useLocation();
     const path=loc.pathname;
-    console.log(path)
 
   return (
     <div className='bg-slate-600 p-3 flex flex-col gap-3 md:flex-row justify-between'>

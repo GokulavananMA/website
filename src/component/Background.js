@@ -1,12 +1,9 @@
 import React from 'react'
+import video from '../assets/video.gif'
 
 const Background = () => {
   return (
-    <div className="relative bg-cover bg-center h-full">
-    <div id='stars'></div>
-<div id='stars2'></div>
-<div id='stars3'></div>
-    </div>
+    <img className="fixed top-0 left-0 w-full h-full object-cover" src={video} alt="bg" autoPlay loop/>
   )
 }
 

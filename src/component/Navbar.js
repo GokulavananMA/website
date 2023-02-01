@@ -1,70 +1,142 @@
-import React from 'react'
-import { useState } from 'react'
-import { Link,useLocation } from 'react-router-dom'
+import React, { useState } from 'react';
+import {useLocation} from 'react-router-dom'
+
+const Navbar = ({home,events,sponsors,contact,rules,prize,phno}) => {
+  const [isOpen, setIsOpen] = useState(false);
+  const loc=useLocation()
+  const path=loc.pathname;
+  
+  const menu1handler=()=>{
+    if(path==="/")
+    {
+    home.current.scrollIntoView({
+      behavior: "smooth",
+      block: "start"
+    });
+    }
+    else
+    {
+      window.location.href = "/";
+    }
+    setIsOpen(false)
+  }
+
+  const menu2handler=()=>{
+    if(path==="/")
+    {
+    events.current.scrollIntoView({
+      behavior: "smooth",
+      block: "start"
+    });
+    }
+    else
+    {
+      rules.current.scrollIntoView({
+        behavior: "smooth",
+        block: "start"
+      });
+    }
+    setIsOpen(false)
+
+  }
+
+  const menu3handler=()=>{
+    if(path==="/")
+    {
+    sponsors.current.scrollIntoView({
+      behavior: "smooth",
+      block: "start"
+    });
+    }
+    else
+    {
+      prize.current.scrollIntoView({
+        behavior: "smooth",
+        block: "start"
+      });
+    }
+    setIsOpen(false)
+
+  }
+
+  const menu4handler=()=>{
+    if(path==="/")
+    {
+    contact.current.scrollIntoView({
+      behavior: "smooth",
+      block: "start"
+    });
+    }
+    else
+    {
+      phno.current.scrollIntoView({
+        behavior: "smooth",
+        block: "start"
+      });
+    }
+    setIsOpen(false)
+
+  }
 
 
-const Navbar = () => {
-    
-    const [show, setshow] = useState(false)
-    const loc=useLocation();
-    const path=loc.pathname;
 
   return (
-    <div className='bg-slate-600 p-3 flex flex-col gap-3 md:flex-row justify-between'>
-        <div className='font-bold text-xl flex justify-between'>
-            Surge2023
-            <button className='md:hidden' onClick={()=>setshow(!show)}>
-                {show?
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
-                </svg>
-                :
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-                </svg>
-                }
-            </button>
-        </div>
+    <nav className="fixed top-0 left-0 z-50 flex flex-wrap items-center justify-between p-6">
+      
+      <div>
+        <button
+          className="text-yellow-500 border border-yellow-500 rounded p-1"
+          onClick={() => setIsOpen(!isOpen)}
+        >
+          {isOpen ? (
+            <svg
+              className="fill-current h-5 w-5"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+            >
+              <path d="M10 8.586L2.929 1.515 1.515 2.929 8.586 10l-7.071 7.071 1.414 1.414L10 11.414l7.071 7.071 1.414-1.414L11.414 10l7.071-7.071-1.414-1.414L10 8.586z" />
+            </svg>
+          ) : (
+            <svg
+              className="fill-current h-5 w-5"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+            >
+              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+            </svg>
+          )}
+        </button>
+        {isOpen && (
+          <div className="mx-5 py-1 absolute left-0 shadow-md w-48 rounded flex flex-col gap-4">
+            <div
+              className="block cursor-pointer p-2 text-white hover:bg-yellow-700 bg-yellow-500 rounded border-4 border-black"
+              onClick={() => menu1handler()}
+            >
+              Home
+            </div>
+            <div
+              className="block cursor-pointer p-2 text-white hover:bg-yellow-700 bg-yellow-500 rounded border-4 border-black"
+              onClick={() => menu2handler()}
+            >
+              {path==="/"?"Events":"Rules"}
+            </div>
+            <div
+              className="block cursor-pointer p-2 text-white hover:bg-yellow-700 bg-yellow-500 rounded border-4 border-black"
+              onClick={() => menu3handler()}
+            >
+              {path==="/"?"Sponsors":"Prize"}
+            </div>
+            <div
+              className="block cursor-pointer p-2 text-white hover:bg-yellow-700 bg-yellow-500 rounded border-4 border-black"
+              onClick={() => menu4handler()}
+            >
+              Contacts
+            </div>
+          </div>
+        )}
+      </div>
+    </nav>
+  );
+};
 
-        {show?
-        <div className='flex flex-col gap-4 md:hidden'>    
-            {path==="/"?
-            <>
-            <a href='#events'>Events</a>
-            <a href='#sponsors'>Sponsers</a>
-            <a href='#contacts'>Contacts</a>
-            </>
-            :
-            <>
-            <Link to='/'>Home</Link>
-            <a href='#rules'>Rules</a>
-            <a href='#phno'>Contacts</a>
-            </>
-            }
-        </div>
-        :
-        <></>}
-
-        <div className='md:flex flex-row gap-4 hidden'>    
-        {path==="/"?
-            <>
-            <a href='#events'>Events</a>
-            <a href='#sponsors'>Sponsers</a>
-            <a href='#contacts'>Contacts</a>
-            </>
-            :
-            <>
-            <Link to='/'>Home</Link>
-            <a href='#rules'>Rules</a>
-            <a href='#phno'>Contacts</a>
-            </>
-            }
-        </div>
-
-
-    </div>
-  
-  )
-}
-
-export default Navbar
+export default Navbar;

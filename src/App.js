@@ -6,7 +6,7 @@ import Background from "./component/Background";
 import { useState,useRef } from "react";
 
 function App() {
-  const [event, setevent] = useState()
+  const [event, setevent] = useState(0)
 
   const home = useRef(null)
   const events = useRef(null)

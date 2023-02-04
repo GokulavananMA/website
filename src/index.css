@@ -47,3 +47,26 @@ body{
     color: white;
   }
   
+  
+  appear-enter {
+    opacity: 0;
+    transform: translateY(-50px);
+    transition: all 1s ease-out;
+  }
+  
+  .appear-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 1s ease-out;
+  }
+  
+  .appear-exit {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .appear-exit-active {
+    opacity: 0;
+    transform: translateY(-50px);
+    transition: all 1s ease-out;
+  }

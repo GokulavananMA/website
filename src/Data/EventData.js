@@ -2,6 +2,17 @@ export const data=[{
     name:"papaer presentation",
     posterlink:"",
     description:"des",
+    rules:[
+        "rule1",
+        "rule2",
+        "rule3"
+    ],
+    prize:[
+        1,
+        2,
+        3
+    ],
+    link:"1",
     staffcoordinator:{name:"hwloo",phno:"5214565"},
     studentcoordinator:{name:"holl",phno:"4524"}
 },
@@ -9,6 +20,17 @@ export const data=[{
     name:"",
     posterlink:"",
     description:"",
+     rules:[
+        "",
+        "",
+        ""
+    ],
+    prize:[
+        1,
+        2,
+        3
+    ],
+    link:"",
     staffcoordinator:{name:"",phno:""},
     studentcoordinator:{name:"",phno:""}
 },
@@ -16,6 +38,17 @@ export const data=[{
     name:"",
     posterlink:"",
     description:"",
+    rules:[
+        "",
+        "",
+        ""
+    ],
+    prize:[
+        1,
+        2,
+        3
+    ],
+    link:"",
     staffcoordinator:{name:"",phno:""},
     studentcoordinator:{name:"",phno:""}
 },
@@ -23,6 +56,17 @@ export const data=[{
     name:"",
     posterlink:"",
     description:"",
+    rules:[
+        "",
+        "",
+        ""
+    ],
+    prize:[
+        1,
+        2,
+        3
+    ],
+    link:"",
     staffcoordinator:{name:"",phno:""},
     studentcoordinator:{name:"",phno:""}
 },
@@ -30,6 +74,17 @@ export const data=[{
     name:"",
     posterlink:"",
     description:"",
+    rules:[
+        "",
+        "",
+        ""
+    ],
+    prize:[
+        1,
+        2,
+        3
+    ],
+    link:"",
     staffcoordinator:{name:"",phno:""},
     studentcoordinator:{name:"",phno:""}
 },
@@ -37,6 +92,17 @@ export const data=[{
     name:"",
     posterlink:"",
     description:"",
+    rules:[
+        "",
+        "",
+        ""
+    ],
+    prize:[
+        1,
+        2,
+        3
+    ],
+    link:"",
     staffcoordinator:{name:"",phno:""},
     studentcoordinator:{name:"",phno:""}
 },
@@ -44,6 +110,17 @@ export const data=[{
     name:"",
     posterlink:"",
     description:"",
+    rules:[
+        "",
+        "",
+        ""
+    ],
+    prize:[
+        1,
+        2,
+        3
+    ],
+    link:"",
     staffcoordinator:{name:"",phno:""},
     studentcoordinator:{name:"",phno:""}
 },
@@ -51,6 +128,17 @@ export const data=[{
     name:"",
     posterlink:"",
     description:"",
+    rules:[
+        "",
+        "",
+        ""
+    ],
+    prize:[
+        1,
+        2,
+        3
+    ],
+    link:"",
     staffcoordinator:{name:"",phno:""},
     studentcoordinator:{name:"",phno:""}
 },
@@ -58,6 +146,17 @@ export const data=[{
     name:"",
     posterlink:"",
     description:"",
+    rules:[
+        "",
+        "",
+        ""
+    ],
+    prize:[
+        1,
+        2,
+        3
+    ],
+    link:"",
     staffcoordinator:{name:"",phno:""},
     studentcoordinator:{name:"",phno:""}
 }]

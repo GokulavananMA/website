@@ -81,16 +81,16 @@ const Navbar = ({home,events,sponsors,contact,rules,prize,phno}) => {
 
 
   return (
-    <nav className="fixed top-0 left-0 z-50 flex flex-wrap items-center justify-between p-6">
+    <nav className="fixed top-0 left-0 z-50 flex flex-wrap items-center justify-between p-6 md:p-0 md:w-[100vw]">
       
-      <div>
+      <div className='md:hidden'>
         <button
           className="text-yellow-500 border border-yellow-500 rounded p-1"
           onClick={() => setIsOpen(!isOpen)}
         >
           {isOpen ? (
             <svg
-              className="fill-current h-5 w-5"
+              className="fill-current h-8 w-8 p-1"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
             >
@@ -98,7 +98,7 @@ const Navbar = ({home,events,sponsors,contact,rules,prize,phno}) => {
             </svg>
           ) : (
             <svg
-              className="fill-current h-5 w-5"
+              className="fill-current h-8 w-8 p-1"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
             >
@@ -135,6 +135,34 @@ const Navbar = ({home,events,sponsors,contact,rules,prize,phno}) => {
           </div>
         )}
       </div>
+
+      <div className='hidden md:flex text-black text-xl font-bold bg-yellow-400 p-2 w-screen'>
+
+            <div
+              className=" cursor-pointer p-2"
+              onClick={() => menu1handler()}
+            >
+              Home
+            </div>
+            <div
+              className=" cursor-pointer p-2"
+              onClick={() => menu2handler()}
+            >
+              {path==="/"?"Events":"Rules"}
+            </div>
+            <div
+              className=" cursor-pointer p-2"
+              onClick={() => menu3handler()}
+            >
+              {path==="/"?"Sponsors":"Prize"}
+            </div>
+            <div
+              className=" cursor-pointer p-2"
+              onClick={() => menu4handler()}
+            >
+              Contacts
+            </div>
+          </div>
     </nav>
   );
 };

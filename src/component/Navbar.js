@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import {useLocation} from 'react-router-dom'
-import { CSSTransition } from 'react-transition-group';
+import { AOS } from 'aos';
+import 'aos/dist/aos.css'
 
 const Navbar = ({home,events,sponsors,contact,rules,prize,phno}) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -107,69 +108,50 @@ const Navbar = ({home,events,sponsors,contact,rules,prize,phno}) => {
             </svg>
           )}
         </button>
+        {isOpen?
           <div className="mx-5 py-1 absolute left-0 shadow-md w-48 rounded flex flex-col gap-4">
             
-            <CSSTransition
-              in={isOpen}
-              timeout={1000}
-              classNames="appear"
-              appear={true}
-              unmountOnExit
-            >
+           
             <div
+            data-aos="fade-down"
               className="block cursor-pointer p-2 text-white hover:bg-yellow-700 bg-yellow-500 rounded border-4 border-black transition ease-in-out duration-300"
               onClick={() => menu1handler()}
             >
               Home
             </div>
-            </CSSTransition>
+            
 
-            <CSSTransition
-              in={isOpen}
-              timeout={1000}
-              classNames="appear"
-              appear={true}
-              unmountOnExit
-            >
+           
             <div
-              className="block cursor-pointer p-2 text-white hover:bg-yellow-700 bg-yellow-500 rounded border-4 border-black transition ease-in-out duration-300"
+
+data-aos="fade-down"className="block cursor-pointer p-2 text-white hover:bg-yellow-700 bg-yellow-500 rounded border-4 border-black transition ease-in-out duration-300"
               onClick={() => menu2handler()}
             >
               {path==="/"?"Events":"Rules"}
             </div>
-            </CSSTransition>
+            
 
-            <CSSTransition
-              in={isOpen}
-              timeout={1000}
-              classNames="appear"
-              appear={true}
-              unmountOnExit
-            >
+           
             <div
+            data-aos="fade-down"
               className="block cursor-pointer p-2 text-white hover:bg-yellow-700 bg-yellow-500 rounded border-4 border-black transition ease-in-out duration-300"
               onClick={() => menu3handler()}
             >
               {path==="/"?"Sponsors":"Prize"}
             </div>
-            </CSSTransition>
+            
 
-            <CSSTransition
-              in={isOpen}
-              timeout={1000}
-              classNames="appear"
-              appear={true}
-              unmountOnExit
-            >
+           
             <div
-              className="block cursor-pointer p-2 text-white hover:bg-yellow-700 bg-yellow-500 rounded border-4 border-black transition ease-in-out duration-300"
+
+data-aos="fade-down"className="block cursor-pointer p-2 text-white hover:bg-yellow-700 bg-yellow-500 rounded border-4 border-black transition ease-in-out duration-300"
               onClick={() => menu4handler()}
             >
               Contacts
             </div>
-            </CSSTransition>
+            
 
-          </div>
+          </div>:<></>}
      
       </div>
 

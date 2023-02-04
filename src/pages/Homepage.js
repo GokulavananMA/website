@@ -10,6 +10,7 @@ const Homepage = ({setevent,home,events,contact,sponsors}) => {
   },[])
   const [ntevent, setntevent] = useState(false)
   const [tevent, settevent] = useState(false)
+  const [oevents,setoevents]=useState(false)
 
   return (
     <div className=' flex flex-col items-center px-5 py-32 gap-2 text-yellow-400' ref={home}>
@@ -75,18 +76,18 @@ const Homepage = ({setevent,home,events,contact,sponsors}) => {
           <div className='flex flex-row gap-20 justify-center my-10' data-aos="fade-up">
       <div className='px-10 bg-slate-700 py-2 border-4 border-yellow-500 rounded-lg shadow-lg flex flex-col items-center'>
           <div className='text-xl text-center capitalize text-yellow-300'>Online events</div>
-         {tevent?
+         {oevents?
           <div className='flex flex-col text-white text-center mt-4 mb-3 md:hidden gap-2'>
           <Link to="/gamingbgmi" className='hover:text-yellow-500 hover:font-bold text-lg' >Gaming BGMI</Link>
-          <Link to="/gamingfreefire" className='hover:text-yellow-500 hover:font-bold text-lg' >GAMING FREE FIRE</Link>
+          <Link to="/photography" className='hover:text-yellow-500 hover:font-bold text-lg' >photography</Link>
         </div>:
         <div className='text-center mt-4 mb-3 md:hidden'>des</div>}
-        <button onClick={()=>settevent(!tevent)} className='py-1 px-2 bg-yellow-500 rounded-lg text-white md:hidden'>view</button>
+        <button onClick={()=>setoevents(!oevents)} className='py-1 px-2 bg-yellow-500 rounded-lg text-white md:hidden'>view</button>
         <div className='text-center mt-4 mb-3 hidden md:block'>des</div>
       </div>
       <div className='flex-col text-white text-left border-l-2 border-yellow-600 pl-4  mt-4 mb-3 hidden md:flex gap-2'>
           <Link to="/gamingbgmi" className='hover:text-yellow-500 hover:font-bold text-lg' >Gaming BGMI</Link>
-          <Link to="/gamingfreefire" className='hover:text-yellow-500 hover:font-bold text-lg' >GAMING FREE FIRE</Link>
+          <Link to="/photography" className='hover:text-yellow-500 hover:font-bold text-lg' >photography</Link>
         </div>
       </div>
         

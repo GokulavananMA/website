@@ -1,10 +1,9 @@
 import React from 'react'
 import { data } from '../Data/EventData'
-import { AOS } from 'aos'
 import 'aos/dist/aos.css'
 
 const Eventpage = ({event,rules,prize,phno}) => {
-  console.log(event)
+  
   return (
     <div className='flex flex-col items-center px-5 py-32 gap-4 text-yellow-500'>
 

@@ -3,10 +3,9 @@ import { BrowserRouter as Router, Route,Routes } from "react-router-dom";
 import Homepage from "./pages/Homepage";
 import Eventpage from "./pages/Eventpage";
 import Background from "./component/Background";
-import { useState,useRef } from "react";
+import { useRef } from "react";
 
 function App() {
-  const [event, setevent] = useState(0)
 
   const home = useRef(null)
   const events = useRef(null)
@@ -27,7 +26,7 @@ function App() {
       <Navbar home={home} events={events} sponsors={sponsors} contact={contact} rules={rules} prize={prize} phno={phno}/>
 
       <Routes>
-        <Route path="/" exact element={<Homepage setevent={setevent} home={home} events={events} sponsors={sponsors} contact={contact} />} />
+        <Route path="/" exact element={<Homepage home={home} events={events} sponsors={sponsors} contact={contact} />} />
         <Route path="/paperpresentation" element={<Eventpage event={0} rules={rules} prize={prize} phno={phno} />}/>
         <Route path="/circuitdebug" element={<Eventpage event={1} rules={rules} prize={prize} phno={phno} />}/>
         <Route path="/projectexpo" element={<Eventpage event={2} rules={rules} prize={prize} phno={phno} />}/>
@@ -37,7 +36,7 @@ function App() {
         <Route path="/mythorfact" element={<Eventpage event={6} rules={rules} prize={prize} phno={phno} />}/>
         <Route path="/murderandmystery" element={<Eventpage event={7} rules={rules} prize={prize} phno={phno} />}/>
         <Route path="/gamingbgmi" element={<Eventpage event={8} rules={rules} prize={prize} phno={phno} />}/>
-        <Route path="/gamingfreefire" element={<Eventpage event={9} rules={rules} prize={prize} phno={phno} />}/>
+        <Route path="/photography" element={<Eventpage event={9} rules={rules} prize={prize} phno={phno} />}/>
       </Routes>
       </Router>
       </div>

@@ -187,7 +187,7 @@ export const data=[{
     studentcoordinator:{name:"",phno:""}
 },
 {
-    name:"Gaming free fire",
+    name:"Photography",
     posterlink:"",
     description:`Gaming BGMI:
 

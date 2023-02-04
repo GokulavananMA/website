@@ -28,7 +28,16 @@ function App() {
 
       <Routes>
         <Route path="/" exact element={<Homepage setevent={setevent} home={home} events={events} sponsors={sponsors} contact={contact} />} />
-        <Route path="/events" element={<Eventpage event={event} rules={rules} prize={prize} phno={phno} />}/>
+        <Route path="/paperpresentation" element={<Eventpage event={0} rules={rules} prize={prize} phno={phno} />}/>
+        <Route path="/circuitdebug" element={<Eventpage event={1} rules={rules} prize={prize} phno={phno} />}/>
+        <Route path="/projectexpo" element={<Eventpage event={2} rules={rules} prize={prize} phno={phno} />}/>
+        <Route path="/roboracing" element={<Eventpage event={3} rules={rules} prize={prize} phno={phno} />}/>
+        <Route path="/connection" element={<Eventpage event={4} rules={rules} prize={prize} phno={phno} />}/>
+        <Route path="/melomoniac" element={<Eventpage event={5} rules={rules} prize={prize} phno={phno} />}/>
+        <Route path="/mythorfact" element={<Eventpage event={6} rules={rules} prize={prize} phno={phno} />}/>
+        <Route path="/murderandmystery" element={<Eventpage event={7} rules={rules} prize={prize} phno={phno} />}/>
+        <Route path="/gamingbgmi" element={<Eventpage event={8} rules={rules} prize={prize} phno={phno} />}/>
+        <Route path="/gamingfreefire" element={<Eventpage event={9} rules={rules} prize={prize} phno={phno} />}/>
       </Routes>
       </Router>
       </div>

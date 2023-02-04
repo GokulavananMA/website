@@ -29,40 +29,40 @@ const Homepage = ({setevent,home,events,contact,sponsors}) => {
           <div className='text-xl text-center capitalize text-yellow-300'>technical</div>
          {tevent?
           <div className='flex flex-col text-white text-center mt-4 mb-3 md:hidden gap-2'>
-          <Link to="/events" className='hover:text-yellow-500 hover:font-bold' onClick={()=>setevent(1)}>Paper presentation</Link>
-          <Link to="/events" className='hover:text-yellow-500 hover:font-bold' onClick={()=>setevent(2)}>Circuit Debug</Link>
-          <Link to="/events" className='hover:text-yellow-500 hover:font-bold' onClick={()=>setevent(3)}>Project Diplay</Link>
-          <Link to="/events" className='hover:text-yellow-500 hover:font-bold' onClick={()=>setevent(4)}>Robo Racing (Line Follower)</Link>
+          <Link to="/paperpresentation" className='hover:text-yellow-500 hover:font-bold' >Paper presentation</Link>
+          <Link to="/circuitdebug" className='hover:text-yellow-500 hover:font-bold' >Circuit Debug</Link>
+          <Link to="/projectexpo" className='hover:text-yellow-500 hover:font-bold' >Project Diplay</Link>
+          <Link to="/roboracing" className='hover:text-yellow-500 hover:font-bold' >Robo Racing (Line Follower)</Link>
         </div>:
         <div className='text-center mt-4 mb-3 md:hidden'>des</div>}
         <button onClick={()=>settevent(!tevent)} className='py-1 px-2 bg-yellow-500 rounded-lg text-white md:hidden'>view</button>
         <div className='text-center mt-4 mb-3 hidden md:block'>des</div>
       </div>
       <div className='flex-col text-white text-left border-l-2 border-yellow-600 pl-4  mt-4 mb-3 hidden md:flex gap-2'>
-          <Link to="/events" className='hover:text-yellow-500 hover:font-bold text-lg' onClick={()=>setevent(1)}>Paper presentation</Link>
-          <Link to="/events" className='hover:text-yellow-500 hover:font-bold text-lg' onClick={()=>setevent(3)}>Project Diplay</Link>
-          <Link to="/events" className='hover:text-yellow-500 hover:font-bold text-lg' onClick={()=>setevent(2)}>Circuit Debug</Link>
-          <Link to="/events" className='hover:text-yellow-500 hover:font-bold text-lg' onClick={()=>setevent(4)}>Robo Racing (Line Follower)</Link>
+          <Link to="/paperpresentation" className='hover:text-yellow-500 hover:font-bold text-lg' >Paper presentation</Link>
+          <Link to="/projectexpo" className='hover:text-yellow-500 hover:font-bold text-lg' >Project Expo</Link>
+          <Link to="/circuitdebug" className='hover:text-yellow-500 hover:font-bold text-lg' >Circuit Debug</Link>
+          <Link to="/roboracing" className='hover:text-yellow-500 hover:font-bold text-lg' >Robo Racing (Line Follower)</Link>
         </div>
       </div>
           <hr className='border-4 border-yellow-600 mb-10 md:hidden rounded-xl mx-36' data-aos="fade-in"/>
 
       <div className='flex flex-row gap-20 justify-center my-10' data-aos="fade-up">
       <div className='hidden md:flex flex-col text-white text-right border-r-2 border-yellow-600 pr-4  mt-4 mb-3 gap-2'>
-          <Link to="/events" className='hover:text-yellow-500 hover:font-bold text-lg' onClick={()=>setevent(5)}>Connection</Link>
-          <Link to="/events" className='hover:text-yellow-500 hover:font-bold text-lg' onClick={()=>setevent(6)}>Melomoniac</Link>
-          <Link to="/events" className='hover:text-yellow-500 hover:font-bold text-lg' onClick={()=>setevent(7)}>Myth or Fact</Link>
-          <Link to="/events" className='hover:text-yellow-500 hover:font-bold text-lg' onClick={()=>setevent(8)}>Murder and Mystery</Link>
+          <Link to="/connection" className='hover:text-yellow-500 hover:font-bold text-lg' >Connection</Link>
+          <Link to="/melomoniac" className='hover:text-yellow-500 hover:font-bold text-lg' >Melomoniac</Link>
+          <Link to="/mythorfact" className='hover:text-yellow-500 hover:font-bold text-lg' >Myth or Fact</Link>
+          <Link to="/murderandmystery" className='hover:text-yellow-500 hover:font-bold text-lg' >Murder and Mystery</Link>
         </div>
 
       <div className='px-10 bg-slate-700 py-2 border-4 border-yellow-500 rounded-lg shadow-lg flex flex-col items-center'>
           <div className='text-xl text-center capitalize text-yellow-300'>Non technical</div>
          {ntevent?
           <div className='flex flex-col text-white text-center mt-4 mb-3 md:hidden gap-2'>
-          <Link to="/events" className='hover:text-yellow-500 hover:font-bold text-lg' onClick={()=>setevent(5)}>Connection</Link>
-          <Link to="/events" className='hover:text-yellow-500 hover:font-bold text-lg' onClick={()=>setevent(6)}>Melomoniac</Link>
-          <Link to="/events" className='hover:text-yellow-500 hover:font-bold text-lg' onClick={()=>setevent(7)}>Myth or Fact</Link>
-          <Link to="/events" className='hover:text-yellow-500 hover:font-bold text-lg' onClick={()=>setevent(8)}>Murder and Mystery</Link>
+          <Link to="/connection" className='hover:text-yellow-500 hover:font-bold text-lg' >Connection</Link>
+          <Link to="/melomoniac" className='hover:text-yellow-500 hover:font-bold text-lg' >Melomoniac</Link>
+          <Link to="/mythorfact" className='hover:text-yellow-500 hover:font-bold text-lg' >Myth or Fact</Link>
+          <Link to="/murderandmystery" className='hover:text-yellow-500 hover:font-bold text-lg' >Murder and Mystery</Link>
         </div>:
         <div className='text-center mt-4 mb-3 md:hidden'>des</div>}
         <button onClick={()=>setntevent(!ntevent)} className='py-1 px-2 bg-yellow-500 text-white rounded-lg md:hidden'>view</button>
@@ -77,16 +77,16 @@ const Homepage = ({setevent,home,events,contact,sponsors}) => {
           <div className='text-xl text-center capitalize text-yellow-300'>Online events</div>
          {tevent?
           <div className='flex flex-col text-white text-center mt-4 mb-3 md:hidden gap-2'>
-          <Link to="/events" className='hover:text-yellow-500 hover:font-bold text-lg' onClick={()=>setevent(9)}>Gaming BGMI</Link>
-          <Link to="/events" className='hover:text-yellow-500 hover:font-bold text-lg' onClick={()=>setevent(10)}>GAMING FREE FIRE</Link>
+          <Link to="/gamingbgmi" className='hover:text-yellow-500 hover:font-bold text-lg' >Gaming BGMI</Link>
+          <Link to="/gamingfreefire" className='hover:text-yellow-500 hover:font-bold text-lg' >GAMING FREE FIRE</Link>
         </div>:
         <div className='text-center mt-4 mb-3 md:hidden'>des</div>}
         <button onClick={()=>settevent(!tevent)} className='py-1 px-2 bg-yellow-500 rounded-lg text-white md:hidden'>view</button>
         <div className='text-center mt-4 mb-3 hidden md:block'>des</div>
       </div>
       <div className='flex-col text-white text-left border-l-2 border-yellow-600 pl-4  mt-4 mb-3 hidden md:flex gap-2'>
-          <Link to="/events" className='hover:text-yellow-500 hover:font-bold text-lg' onClick={()=>setevent(9)}>Gaming BGMI</Link>
-          <Link to="/events" className='hover:text-yellow-500 hover:font-bold text-lg' onClick={()=>setevent(10)}>GAMING FREE FIRE</Link>
+          <Link to="/gamingbgmi" className='hover:text-yellow-500 hover:font-bold text-lg' >Gaming BGMI</Link>
+          <Link to="/gamingfreefire" className='hover:text-yellow-500 hover:font-bold text-lg' >GAMING FREE FIRE</Link>
         </div>
       </div>
         

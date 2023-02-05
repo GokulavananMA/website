@@ -154,7 +154,7 @@ data-aos="fade-down"className="block cursor-pointer p-2 text-white hover:bg-yell
      
       </div>
 
-      <div className='hidden md:flex text-black text-lg font-bold bg-yellow-400 p-2 w-screen'>
+      <div className='hidden md:flex text-black font-bold bg-yellow-400 p-2 w-screen'>
 
             <div
               className=" cursor-pointer p-2"

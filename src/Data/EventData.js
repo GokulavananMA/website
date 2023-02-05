@@ -1,8 +1,20 @@
+import roboracing from '../assets/roboracing.jpeg'
+import connections from '../assets/connections.jpeg'
+import melomaniac from '../assets/melomaniac.jpeg'
+import circuitdebugging from '../assets/circuitdebugging.jpeg'
+import gaming from '../assets/gaming.jpeg'
+import murdermystery from '../assets/murdermystery.jpeg'
+import visionquest from '../assets/visionquest.jpeg'
+import mythorfact from '../assets/mythorfact.jpeg'
+import photography from '../assets/photography.jpeg'
+import projectexpo from '../assets/projectexpo.jpeg'
+
 export const data=[{
     name:"papaer presentation",
-    posterlink:"",
-    description:`Participate in this knowledge filled event and showcase your ideas .\nThis event is a stupendous opportunity to unleash your skills and win exciting prizes and awards.\n
-    Topics:
+    posterlink:visionquest,
+    description:` Paper presentation is an event where the participants are required to create a paper about a certain topic or area, and then present it in front of a jury, following which it will be rated and judged based on their performance.
+    
+Topics:
  1) Artificial intelligence
 2) Ethical hacking
 3) Advance wireless communication
@@ -35,7 +47,7 @@ export const data=[{
 },
 {
     name:"CIRCUIT DEBUGGING",
-    posterlink:"",
+    posterlink:circuitdebugging,
     description:`THREE ROUNDS
     Round 1: MCQ.
     Round 2: Circuit Diagram Correction.
@@ -57,8 +69,8 @@ export const data=[{
 },
 {
     name:"PROJECT EXPO",
-    posterlink:"",
-    description:"",
+    posterlink:projectexpo,
+    description:"Start where you are. Use what you have. Do what you can !!",
     prize:``,
     rules:`RULES:	
     • Student’s from any branch is allowed to participate in this event
@@ -79,7 +91,7 @@ export const data=[{
 },
 {
     name:"ROBO RACING",
-    posterlink:"",
+    posterlink:roboracing,
     description:`A robot that can be operated manually and can travel through all turns of the track. The robot which  completes the specified task in minimum time will be the winner. `,
     prize:``,
     rules:`1.Each team can have maximum two members and minimum of one member.
@@ -95,17 +107,22 @@ export const data=[{
 },
 {
     name:"connection",
-    posterlink:"",
-    description:"",
+    posterlink:connections,
+    description:"Connect the picture to get the ultimate answer. Connection is the game of solving the puzzles which are in the form of pictures. The answers will be based on movies name, celebrity name, line in a song( Tamil )etc.., Solve the puzzles of pictures with us..",
     prize:``,
-    rules:``,
+    rules:`1. Players can be from any department 
+    2. A Team should consist of two or three members.
+    3. Priority of answering will be decided by the order of pressing buzzers 
+    4. The team should answer the question within the timeline provided
+    5. The winning team will be promoted to the semi finals and the same rule will be applicable for the semi finals and finals
+    6. In case of cheating the team will be directly eliminated from the event`,
     link:"",
     staffcoordinator:{name:"",phno:""},
     studentcoordinator:{name:"",phno:""}
 },
 {
-    name:"Melomoniac",
-    posterlink:"",
+    name:"Melomaniac",
+    posterlink:melomaniac,
     description:`“One good thing about music when it hits you, you feel no pain”
     “Music” even before the term originated it has always existed around us. Music is ever soothingly healing and is the solace we can escape into.
     So if you are a MELOMANIAC this is the right game for you!`,
@@ -128,8 +145,8 @@ export const data=[{
     studentcoordinator:{name:"",phno:""}
 },
 {
-    name:"",
-    posterlink:"",
+    name:"myth or fact",
+    posterlink:mythorfact,
     description:"",
     prize:``,
     rules:``,
@@ -138,8 +155,8 @@ export const data=[{
     studentcoordinator:{name:"",phno:""}
 },
 {
-    name:"Murder and Mystery",
-    posterlink:"",
+    name:"Murder Mystery",
+    posterlink:murdermystery,
     description:`• To connect all dots of the mystery with threads of story. 
     • Do you enjoy a good whodunnit with lots of twists and turns? So do we. In many ways , a new person is a new mystery and we want you to solve it with us. 
     `,
@@ -164,11 +181,8 @@ export const data=[{
 },
 {
     name:"Gaming",
-    posterlink:"",
-    description:`Gaming BGMI:
-
-    DESCRIPTION
-          BATTLEGROUND MOBILE INDIA is not a Real-World based game, but a survival simulation games set in virtual world play responsible.
+    posterlink:gaming,
+    description:`BATTLEGROUND MOBILE INDIA is not a Real-World based game, but a survival simulation games set in virtual world play responsible.
   
    `,
     prize:``,
@@ -187,33 +201,21 @@ export const data=[{
     studentcoordinator:{name:"",phno:""}
 },
 {
-    name:"Photography",
-    posterlink:"",
-    description:`Gaming BGMI:
-
-    DESCRIPTION
-          BATTLEGROUND MOBILE INDIA is not a Real-World based game, but a survival simulation games set in virtual world play responsible.
-  
-   `,
+    name:"Photography contest",
+    posterlink:photography,
+    description:`Hello photag,
+    Photography is more than just a skill or talent , its a passion that needs constant fulfillment.
+    For an artist a notebook is a sketchbook, likewise for a photographer the camera is a sketchbook.
+    So we warmly welcome your participation in the photography contest with your beautiful shots of your vision.`,
     prize:``,
-    rules:`Round 1 (Battle Royal)
-    Top 6 teams will be selected.
-    
-    Round 2 (Clash squad)
-    3 matches will be held.
-    6 teams will have a match and  3 winners will be selected for the final round.
-    
-    Round 3 (Clash squad)
-    3 matches will be held.
-    3 teams will play with each other.
-    Based on the top points winners will be Finalized.
-    
-    Rules for battle ground:
-    No team up and hack using 
-    
-    Rules for Clash squad:
-     No Rules and no Nades 
-    Character skill off.`,
+    rules:`• No unnecessary quotes in the photo
+    • No internal downloaded images
+    • Photographer’s name can be mentioned at the bottom corner of the image
+    • Photo will be selected based on the clarity, level of editing, and overall appeal.  
+    • One entry per participant.
+    • Upload resolution upto 8k (higher resolution recommended)
+    • The decision of the judge is final.
+    • Mobile and camera photographs only. Digitally created images are strictly prohibited.`,
     link:"",
     staffcoordinator:{name:"",phno:""},
     studentcoordinator:{name:"",phno:""}

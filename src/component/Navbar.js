@@ -136,7 +136,7 @@ data-aos="fade-down"className="block cursor-pointer p-2 text-white hover:bg-yell
               className="block cursor-pointer p-2 text-white hover:bg-yellow-700 bg-yellow-500 rounded border-4 border-black transition ease-in-out duration-300"
               onClick={() => menu3handler()}
             >
-              {path==="/"?"Sponsors":"Prize"}
+              {path==="/"?"Sponsors":"Register"}
             </div>
             
 

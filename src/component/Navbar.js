@@ -1,25 +1,24 @@
 import React, { useState } from 'react';
 import {useLocation} from 'react-router-dom'
 import 'aos/dist/aos.css'
+import { Link } from 'react-router-dom';
 
 const Navbar = ({home,events,sponsors,contact,rules,prize,phno}) => {
   const [isOpen, setIsOpen] = useState(false);
   const loc=useLocation()
   const path=loc.pathname;
+
+ 
+
+  console.log(path)
   
   const menu1handler=()=>{
-    if(path==="/")
-    {
+    
     home.current.scrollIntoView({
       behavior: "smooth",
       block: "start"
     });
-    }
-    else
-    {
-      window.location.href = "/";
-    }
-    setIsOpen(false)
+    
   }
 
   const menu2handler=()=>{
@@ -111,13 +110,20 @@ const Navbar = ({home,events,sponsors,contact,rules,prize,phno}) => {
           <div className="mx-5 py-1 absolute left-0 shadow-md w-48 rounded flex flex-col gap-4">
             
            
-            <div
+            {path==="/"?
+            (<div
             data-aos="fade-down"
               className="block cursor-pointer p-2 text-white hover:bg-yellow-700 bg-yellow-500 rounded border-4 border-black transition ease-in-out duration-300"
               onClick={() => menu1handler()}
             >
               Home
-            </div>
+            </div>):
+            (<Link to="/"
+            className="block cursor-pointer p-2 text-white hover:bg-yellow-700 bg-yellow-500 rounded border-4 border-black transition ease-in-out duration-300"
+            >
+              Home2
+            </Link>)}
+
             
 
            
@@ -156,12 +162,18 @@ data-aos="fade-down"className="block cursor-pointer p-2 text-white hover:bg-yell
 
       <div className='hidden md:flex text-black font-bold bg-yellow-400 p-2 w-screen'>
 
-            <div
-              className=" cursor-pointer p-2"
+            {path==="/"?
+            (<div
+              className="cursor-pointer p-2"
               onClick={() => menu1handler()}
             >
               Home
-            </div>
+            </div>):
+            (<Link to="/"
+            className="cursor-pointer p-2"
+            >
+              Home
+            </Link>)}
             <div
               className=" cursor-pointer p-2"
               onClick={() => menu2handler()}

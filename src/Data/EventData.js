@@ -149,7 +149,21 @@ Topics:
     posterlink:mythorfact,
     description:"",
     prize:``,
-    rules:``,
+    rules:`𝑮𝒓𝒐𝒖𝒏𝒅 𝒓𝒖𝒍𝒆𝒔:
+    -𝑂𝑛𝑙𝑦 𝑡𝑤𝑜 𝑚𝑒𝑚𝑏𝑒𝑟𝑠 𝑎𝑟𝑒 𝑎𝑙𝑙𝑜𝑤𝑒𝑑 𝑝𝑒𝑟 𝑡𝑒𝑎𝑚.
+    -𝑈𝑠𝑎𝑔𝑒 𝑜𝑓 𝑚𝑜𝑏𝑖𝑙𝑒𝑠 𝑎𝑟𝑒 𝑛𝑜𝑡 𝑒𝑛𝑐𝑜𝑢𝑟𝑎𝑔𝑒𝑑.
+    
+    𝑹𝒐𝒖𝒏𝒅 1:
+    -𝑇𝑤𝑜 𝑑𝑖𝑓𝑓𝑒𝑟𝑒𝑛𝑡 𝑠𝑡𝑎𝑡𝑒𝑚𝑒𝑛𝑡𝑠 𝑤𝑖𝑙𝑙 𝑏𝑒 𝑔𝑖𝑣𝑒𝑛 𝑡𝑜 𝑒𝑎𝑐ℎ 𝑡𝑒𝑎𝑚𝑠.
+    -𝑇ℎ𝑒 𝑡𝑒𝑎𝑚 𝑚𝑒𝑚𝑏𝑒𝑟𝑠 𝑠ℎ𝑜𝑢𝑙𝑑 𝑐ℎ𝑜𝑜𝑠𝑒 𝑡ℎ𝑒 𝑐𝑜𝑟𝑟𝑒𝑐𝑡 𝑠𝑡𝑎𝑡𝑒𝑚𝑒𝑛𝑡.
+    
+    𝑹𝒐𝒖𝒏𝒅 2:
+    -𝑇𝑤𝑜 𝑑𝑖𝑓𝑓𝑒𝑟𝑒𝑛𝑡 𝑓𝑜𝑜𝑑 𝑖𝑡𝑒𝑚𝑠 𝑤𝑖𝑙𝑙 𝑏𝑒 𝑔𝑖𝑣𝑒𝑛 𝑓𝑜𝑟 𝑒𝑎𝑐ℎ 𝑡𝑒𝑎𝑚𝑠.
+    -𝑇ℎ𝑒 𝑡𝑒𝑎𝑚 𝑚𝑒𝑚𝑏𝑒𝑟𝑠 𝑠ℎ𝑜𝑢𝑙𝑑 𝑐ℎ𝑜𝑜𝑠𝑒 𝑎𝑛𝑦 𝑜𝑛𝑒 𝑜𝑓 𝑡ℎ𝑒 𝑔𝑖𝑣𝑒𝑛 𝑓𝑜𝑜𝑑 𝑖𝑡𝑒𝑚𝑠 𝑎𝑛𝑑 𝑠ℎ𝑜𝑢𝑙𝑑 𝑒𝑎𝑡 𝑡ℎ𝑒 𝑠𝑒𝑙𝑒𝑐𝑡𝑒𝑑 𝑓𝑜𝑜𝑑 𝑤𝑖𝑡ℎ𝑖𝑛 𝑎 𝑔𝑖𝑣𝑒𝑛 𝑡𝑖𝑚𝑒.
+    
+    𝑹𝒐𝒖𝒏𝒅 3:
+    -𝐶ℎ𝑖𝑙𝑑ℎ𝑜𝑜𝑑 𝑝𝑖𝑐𝑠 𝑜𝑓 𝑎𝑐𝑡𝑜𝑟𝑠 𝑤𝑖𝑙𝑙 𝑏𝑒 𝑑𝑖𝑠𝑝𝑙𝑎𝑦𝑒𝑑 𝑓𝑜𝑟 𝑒𝑎𝑐ℎ 𝑡𝑒𝑎𝑚𝑠.
+    -𝐸𝑎𝑐ℎ 𝑡𝑒𝑎𝑚 𝑠ℎ𝑜𝑢𝑙𝑑 𝑚𝑎𝑡𝑐ℎ 𝑡ℎ𝑒 𝑐𝑜𝑟𝑟𝑒𝑐𝑡 𝑐ℎ𝑖𝑙𝑑ℎ𝑜𝑜𝑑 𝑖𝑚𝑎𝑔𝑒𝑠 𝑤𝑖𝑡ℎ𝑖𝑛 𝑎 𝑔𝑖𝑣𝑒𝑛 𝑡𝑖𝑚𝑒.`,
     link:"",
     staffcoordinator:{name:"",phno:""},
     studentcoordinator:{name:"",phno:""}
@@ -186,7 +200,7 @@ Topics:
   
    `,
     prize:``,
-    rules:`Terms and Conditions:
+    rules:`Terms and Conditions for BGMI:
     1.) Only 2 members per team. 
     2.) Round-1 will be CLASSIC
           Round-2 will be TDM
@@ -195,7 +209,30 @@ Topics:
     4.) Minimum player level must be 10.
     5.) GFX tool and other 3rd party apps is strictly avoided. 
     6.) Participation certificate will be awarded for all participants
-    7.) In TDM match single gun slot must be used and grenade is strictly avoided, AR(M416)  is used during TDM`,
+    7.) In TDM match single gun slot must be used and grenade is strictly avoided, AR(M416)  is used during TDM
+    
+    Gaming Free Fire Rules
+
+A TEAM SHOULD CONTAIN 2 MEMBERS.
+
+Round 1 (Battle Royal)
+Top 6 teams will be selected.
+
+Round 2 (Clash squad)
+3 matches will be held.
+6 teams will have a match and  3 winners will be selected for the final round.
+
+Round 3 (Clash squad)
+3 matches will be held.
+3 teams will play with each other.
+Based on the top points winners will be Finalized.
+
+Rules for battle ground:
+No team up and hack using 
+
+Rules for Clash squad:
+ No Rules and no Nades 
+Character skill off.`,
     link:"",
     staffcoordinator:{name:"",phno:""},
     studentcoordinator:{name:"",phno:""}

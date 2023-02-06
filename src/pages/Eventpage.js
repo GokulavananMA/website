@@ -1,11 +1,14 @@
 import React from 'react'
 import { data } from '../Data/EventData'
 import 'aos/dist/aos.css'
+import { useEffect } from 'react'
 
 const Eventpage = ({event,rules,prize,phno}) => {
   console.log(event)
 
- 
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   return (
     <div className='flex flex-col items-center px-5 py-32 gap-4 text-yellow-500'>
@@ -15,7 +18,7 @@ const Eventpage = ({event,rules,prize,phno}) => {
       <div className='grid xl:grid-cols-2 gap-2 items-center md:px-40 my-20'>
       <div data-aos="fade-up">
       <img src={data[event].posterlink} className="sm:w-1/2 sm:h-1/2 md:w-[80%] md:h-[80%]  px-10 mx-auto" alt="poster"/>
-      <div className='text-bold text-center text-yellow-400 my-10'>{data[event].name}</div>
+      <div className='text-bold text-center text-xl capitalize text-yellow-400 my-10'>{data[event].name}</div>
       </div>
 
       <div className='md:px-20' data-aos="fade-up">
@@ -41,8 +44,8 @@ const Eventpage = ({event,rules,prize,phno}) => {
       <hr className='border-yellow-500 border-2 bg-yellow-500 shadow-yellow-lg my-10 w-[60vw] rounded-xl'/>
 
 
-      <div className='flex flex-col py-10 px-10' data-aos="fade-up">
-        <div className='text-yellow-400 text-xl md:px-80 font-bold my-20' ref={rules}>
+      <div className='flex flex-col py-10 px-10' data-aos="fade-up" ref={rules}>
+        <div className='text-yellow-400 text-xl md:px-80 font-bold my-20'>
           <div className='text-3xl mb-10 underline'>Rules:</div>
           <div>{data[event].rules.split("\n").map((text)=>(
         <>{text}<br/></>

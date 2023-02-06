@@ -3,9 +3,19 @@ import { BrowserRouter as Router, Route,Routes } from "react-router-dom";
 import Homepage from "./pages/Homepage";
 import Eventpage from "./pages/Eventpage";
 import Background from "./component/Background";
-import { useRef } from "react";
+import { useRef ,useState,useEffect} from "react";
+import ScaleLoader from "react-spinners/ScaleLoader";
 
 function App() {
+  const [loading, setloading] = useState(false)
+
+  useEffect(() => {
+    setloading(true)
+  setTimeout(() => {
+    setloading(false)
+  }, 2500);
+  }, [])
+  
 
   const home = useRef(null)
   const events = useRef(null)
@@ -19,8 +29,21 @@ function App() {
 
   return (
     <div className="relative text-slate-900 min-h-screen max-h-screen bg-slate-900">
-   
+  
+    
     <Background/>
+    {loading?
+
+    <div className="relative z-10 flex bg-slate-900 h-screen w-screen justify-center items-center">
+      <ScaleLoader
+      color="#FFFF00"
+      loading={loading}
+      size={100}
+      aria-label="Loading Spinner"
+      data-testid="loader"
+      />
+      </div>:
+
       <div className="relative z-10">
         
       <Router>  
@@ -40,8 +63,7 @@ function App() {
         <Route path="/photography" element={<Eventpage event={9} rules={rules} prize={prize} phno={phno} />}/>
       </Routes>
       </Router>
-      </div>
-     
+      </div>}
     </div>
   );
 }

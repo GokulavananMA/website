@@ -17,7 +17,7 @@ const Eventpage = ({event,rules,prize,phno}) => {
 
       <div className='grid xl:grid-cols-2 gap-2 items-center md:px-40 my-20'>
       <div data-aos="fade-up">
-      <img src={data[event].posterlink} className="sm:w-1/2 sm:h-1/2 md:w-[80%] md:h-[80%]  px-10 mx-auto" alt="poster"/>
+      <img src={data[event].posterlink} className="sm:w-1/2 sm:h-1/2 md:w-[80%] md:h-[80%]  mx-auto" alt="poster"/>
       <div className='text-bold text-center text-xl capitalize text-yellow-400 my-10'>{data[event].name}</div>
       </div>
 
@@ -62,7 +62,7 @@ const Eventpage = ({event,rules,prize,phno}) => {
 
       <div className='flex flex-col md:flex-row text-white gap-3 md:gap-20' data-aos="fade-up" ref={phno}>
 
-        <div>
+        <div className='text-center'>
           <h1 className='text-yellow-500'>Student Coordinator</h1>
           <h4>{data[event].studentcoordinator.name}</h4>
           <p>{data[event].studentcoordinator.phno}</p>

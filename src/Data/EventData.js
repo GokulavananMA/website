@@ -10,7 +10,7 @@ import photography from '../assets/photography.jpeg'
 import projectexpo from '../assets/projectexpo.jpeg'
 
 export const data=[{
-    name:"papaer presentation",
+    name:"paper presentation",
     posterlink:visionquest,
     description:` Paper presentation is an event where the participants are required to create a paper about a certain topic or area, and then present it in front of a jury, following which it will be rated and judged based on their performance.
     

@@ -61,13 +61,9 @@ const Eventpage = ({event,rules,prize,phno}) => {
       </a>
 
       <div className='flex flex-col md:flex-row text-white gap-3 md:gap-20' data-aos="fade-up" ref={phno}>
+
         <div>
-          <h1 className='text-yellow-500'>Staff Coordinator</h1>
-          <h4>{data[event].staffcoordinator.name}</h4>
-          <p>{data[event].staffcoordinator.phno}</p>
-        </div>
-        <div>
-          <h1 className='text-yellow-500'>Staff Coordinator</h1>
+          <h1 className='text-yellow-500'>Student Coordinator</h1>
           <h4>{data[event].studentcoordinator.name}</h4>
           <p>{data[event].studentcoordinator.phno}</p>
         </div>

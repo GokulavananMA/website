@@ -42,7 +42,6 @@ Topics:
     The deadline for presentation submission: 17/02/2022 12:00 PM.`,
     prize:``,
     link:"1",
-    staffcoordinator:{name:"hwloo",phno:"5214565"},
     studentcoordinator:{name:"holl",phno:"4524"}
 },
 {
@@ -65,7 +64,7 @@ Topics:
 6. Last Date for the registration 17/02/2022.`,
     link:"",
     staffcoordinator:{name:"",phno:""},
-    studentcoordinator:{name:"",phno:""}
+    studentcoordinator:{name:"gokulavanan",phno:"9677646631"}
 },
 {
     name:"PROJECT EXPO",

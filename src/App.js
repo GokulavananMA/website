@@ -59,7 +59,7 @@ function App() {
         <Route path="/melomoniac" element={<Eventpage event={5} rules={rules} prize={prize} phno={phno} />}/>
         <Route path="/mythorfact" element={<Eventpage event={6} rules={rules} prize={prize} phno={phno} />}/>
         <Route path="/murderandmystery" element={<Eventpage event={7} rules={rules} prize={prize} phno={phno} />}/>
-        <Route path="/gamingbgmi" element={<Eventpage event={8} rules={rules} prize={prize} phno={phno} />}/>
+        <Route path="/gaming" element={<Eventpage event={8} rules={rules} prize={prize} phno={phno} />}/>
         <Route path="/photography" element={<Eventpage event={9} rules={rules} prize={prize} phno={phno} />}/>
       </Routes>
       </Router>

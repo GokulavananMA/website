@@ -88,7 +88,7 @@ These events are organized to bring out innovative ideas from young minds to sol
           <div className='text-xl text-center capitalize text-yellow-300'>Online events</div>
          {oevents?
           <div className='flex flex-col text-white text-center mt-4 mb-3 md:hidden gap-2'>
-          <Link to="/gamingbgmi" className='hover:text-yellow-500 hover:font-bold text-lg' >Gaming</Link>
+          <Link to="/gaming" className='hover:text-yellow-500 hover:font-bold text-lg' >Gaming</Link>
           <Link to="/photography" className='hover:text-yellow-500 hover:font-bold text-lg' >Photography</Link>
         </div>:
         <div className='text-center mt-4 mb-3 md:hidden'>Online events are to exhibit your artistic views, gaming skills, and eye-hand coordination.</div>}
@@ -96,7 +96,7 @@ These events are organized to bring out innovative ideas from young minds to sol
         <div className='text-center mt-4 mb-3 hidden md:block'>Online events are to exhibit your artistic views, gaming skills, and eye-hand coordination.</div>
       </div>
       <div className='flex-col text-white text-left border-l-2 border-yellow-600 pl-4  my-auto hidden md:flex gap-2'>
-          <Link to="/gamin" className='hover:text-yellow-500 hover:font-bold text-lg' >Gaming</Link>
+          <Link to="/gaming" className='hover:text-yellow-500 hover:font-bold text-lg' >Gaming</Link>
           <Link to="/photography" className='hover:text-yellow-500 hover:font-bold text-lg' >Photography</Link>
         </div>
       </div>

@@ -15,12 +15,12 @@ const Homepage = ({setevent,home,events,contact,sponsors}) => {
   const [oevents,setoevents]=useState(false)
 
   return (    
-    <div className='pb-20 flex flex-col items-center px-5 gap-2 text-yellow-400' ref={home}>
+    <div className='pb-20 py-20 flex flex-col items-center px-5 gap-2 text-yellow-400' ref={home}>
     
     <div className='md:px-20 flex flex-col gap-5 items-center h-screen justify-center' data-aos="fade-up">
       <img className='h-40 w-40 mb-5' src={logo} alt="logo"/>
       <div className='text-red text-2xl text-center'>VELAMMAL ENGINEERING COLLEGE</div>
-      <div className='text-slate-100 text-xl text-center'>Department of Electrical and electronics Engineering</div>
+      <div className='text-slate-100 text-xl text-center'>Department of Electrical and Electronics Engineering</div>
       <p className='mt-6 text-center sm:px-5 md:px-20 text-lg mb-2'>SURGE 2K23 is conducted by the department of Electrical and Electronics Engineering of Velammal Engineering College. This  fest houses various nerve wrecking and impressive technical and non technical events to test the skill set of the participants. A stage for expressing their talents and to tackle the problems given to them. Bag the exciting cash prices to prove you are a mastermind! Calling all the enthusiasts to this grandfest!
       </p>
       
@@ -49,8 +49,8 @@ const Homepage = ({setevent,home,events,contact,sponsors}) => {
 These events are organized to bring out innovative ideas from young minds to solve real-time problems.
 </div>
       </div>
-      <div className='flex-col text-white text-left border-l-2 border-yellow-600 pl-4  mt-4 mb-3 hidden md:flex gap-2'>
-          <Link to="/paperpresentation" className='hover:text-yellow-500 hover:font-bold text-lg' >Paper presentation</Link>
+      <div className='flex-col text-white text-left border-l-2 border-yellow-600 pl-4  hidden md:flex gap-2 my-auto'>
+          <Link to="/paperpresentation" className='hover:text-yellow-500 hover:font-bold text-lg ' >Paper presentation</Link>
           <Link to="/projectexpo" className='hover:text-yellow-500 hover:font-bold text-lg' >Project Expo</Link>
           <Link to="/circuitdebug" className='hover:text-yellow-500 hover:font-bold text-lg' >Circuit Debug</Link>
           <Link to="/roboracing" className='hover:text-yellow-500 hover:font-bold text-lg' >Robo Racing (Line Follower)</Link>
@@ -95,7 +95,7 @@ These events are organized to bring out innovative ideas from young minds to sol
         <button onClick={()=>setoevents(!oevents)} className='py-1 px-2 bg-yellow-500 rounded-lg text-white md:hidden'>view</button>
         <div className='text-center mt-4 mb-3 hidden md:block'>Online events are to exhibit your artistic views, gaming skills, and eye-hand coordination.</div>
       </div>
-      <div className='flex-col text-white text-left border-l-2 border-yellow-600 pl-4  mt-4 mb-3 hidden md:flex gap-2'>
+      <div className='flex-col text-white text-left border-l-2 border-yellow-600 pl-4  my-auto hidden md:flex gap-2'>
           <Link to="/gamin" className='hover:text-yellow-500 hover:font-bold text-lg' >Gaming</Link>
           <Link to="/photography" className='hover:text-yellow-500 hover:font-bold text-lg' >Photography</Link>
         </div>
@@ -144,7 +144,7 @@ These events are organized to bring out innovative ideas from young minds to sol
       </div>
     </div>
     <div className='text-white text-xl text-center my-20' data-aos="fade-up">
-         <div className='mb-2'>Address:<span className='text-yellow-500'>the address</span></div>
+         <div className='mb-2'>Address:<span className='text-yellow-500'>'Velammal New Gen Park', Ambattur-Redhills road</span></div>
 <a target='_blank' className='hover:text-yellow-500' href='https://www.google.com/maps/place/Velammal+Engineering+College,+Ambattur+Red+Hills+Rd,+Velammal+Nagar,+Surapet,+Chennai,+Tamil+Nadu+600066/@13.1206794,80.1822923,12z/data=!4m6!3m5!1s0x3a5264a10c856599:0xac3348f41097ba7f!8m2!3d13.1507697!4d80.1915618!16zL20vMDgwazFo?hl=en&gl=IN'>
 📍 click here for location
 </a>

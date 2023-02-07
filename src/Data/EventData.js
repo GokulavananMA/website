@@ -42,7 +42,7 @@ Topics:
     The deadline for presentation submission: 17/02/2022 12:00 PM.`,
     prize:``,
     link:"1",
-    studentcoordinator:{name:"holl",phno:"4524"}
+    studentcoordinator:{name:"KARPAGAM - THAMIZHARASI - GANESH",phno:"73585 00863 - 63691 97557 - 63817 96785"}
 },
 {
     name:"CIRCUIT DEBUGGING",
@@ -64,7 +64,7 @@ Topics:
 6. Last Date for the registration 17/02/2022.`,
     link:"",
     staffcoordinator:{name:"",phno:""},
-    studentcoordinator:{name:"gokulavanan",phno:"9677646631"}
+    studentcoordinator:{name:"SEDHURAM - SABAPATHI - AMRITHA",phno:"96554 54769 - 94887 29472 - 73972 47238"}
 },
 {
     name:"PROJECT EXPO",
@@ -86,7 +86,7 @@ Topics:
 `,
     link:"",
     staffcoordinator:{name:"",phno:""},
-    studentcoordinator:{name:"",phno:""}
+    studentcoordinator:{name:"PRIYA - VIGNESHWARAN - JEEVIKA",phno:"63836 99176 - 63695 74941 - 93607 34141"}
 },
 {
     name:"ROBO RACING",
@@ -102,7 +102,7 @@ Topics:
     5.Participants should posses a valid identity card from their respective Institution `,
     link:"",
     staffcoordinator:{name:"",phno:""},
-    studentcoordinator:{name:"",phno:""}
+    studentcoordinator:{name:"DHANUSH KODI - JOAN DANIEL - JAGAN",phno:"63821 61601 75503 68602 75503 68602"}
 },
 {
     name:"connection",
@@ -117,7 +117,7 @@ Topics:
     6. In case of cheating the team will be directly eliminated from the event`,
     link:"",
     staffcoordinator:{name:"",phno:""},
-    studentcoordinator:{name:"",phno:""}
+    studentcoordinator:{name:"PARVATHANI - PUGAZHANTHI - SIDDARTH",phno:"96552 55722 - 63810 64804 - 90809 66868"}
 },
 {
     name:"Melomaniac",
@@ -141,12 +141,12 @@ Topics:
     Express the song through lip syncing`,
     link:"",
     staffcoordinator:{name:"",phno:""},
-    studentcoordinator:{name:"",phno:""}
+    studentcoordinator:{name:"VIBINKUMAR - MAHATHI - SHANMUGA PRIYA",phno:"93602 49708 - 63851 06324 - 97910 82160"}
 },
 {
     name:"myth or fact",
     posterlink:mythorfact,
-    description:"",
+    description:" ",
     prize:``,
     rules:`𝑮𝒓𝒐𝒖𝒏𝒅 𝒓𝒖𝒍𝒆𝒔:
     -𝑂𝑛𝑙𝑦 𝑡𝑤𝑜 𝑚𝑒𝑚𝑏𝑒𝑟𝑠 𝑎𝑟𝑒 𝑎𝑙𝑙𝑜𝑤𝑒𝑑 𝑝𝑒𝑟 𝑡𝑒𝑎𝑚.
@@ -165,13 +165,13 @@ Topics:
     -𝐸𝑎𝑐ℎ 𝑡𝑒𝑎𝑚 𝑠ℎ𝑜𝑢𝑙𝑑 𝑚𝑎𝑡𝑐ℎ 𝑡ℎ𝑒 𝑐𝑜𝑟𝑟𝑒𝑐𝑡 𝑐ℎ𝑖𝑙𝑑ℎ𝑜𝑜𝑑 𝑖𝑚𝑎𝑔𝑒𝑠 𝑤𝑖𝑡ℎ𝑖𝑛 𝑎 𝑔𝑖𝑣𝑒𝑛 𝑡𝑖𝑚𝑒.`,
     link:"",
     staffcoordinator:{name:"",phno:""},
-    studentcoordinator:{name:"",phno:""}
+    studentcoordinator:{name:"SUGUNESAN - ROSHINI",phno:"91766 53982 - 81228 99660"}
 },
 {
     name:"Murder Mystery",
     posterlink:murdermystery,
-    description:`• To connect all dots of the mystery with threads of story. 
-    • Do you enjoy a good whodunnit with lots of twists and turns? So do we. In many ways , a new person is a new mystery and we want you to solve it with us. 
+    description:`"To connect all dots of the mystery with threads of story"
+    Do you enjoy a good whodunnit with lots of twists and turns? So do we. In many ways , a new person is a new mystery and we want you to solve it with us. 
     `,
     prize:``,
     rules:`Ground rules: 
@@ -188,9 +188,9 @@ Topics:
     
     Round 3:
     • Expect the unexpected to unfold the mysterious mystery`,
-    link:"",
+    link:"https://docs.google.com/forms/d/1GYuepyKfNLAgfkVvrYxGQhayupMMuruUgocMDbNXMgQ/edit?pli=1",
     staffcoordinator:{name:"",phno:""},
-    studentcoordinator:{name:"",phno:""}
+    studentcoordinator:{name:"M SYED MEERAN - R NIVETHA - T THAKSHANA",phno:"89254 05913 - 76393 21092 - 93456 33797"}
 },
 {
     name:"Gaming",
@@ -234,7 +234,7 @@ Rules for Clash squad:
 Character skill off.`,
     link:"",
     staffcoordinator:{name:"",phno:""},
-    studentcoordinator:{name:"",phno:""}
+    studentcoordinator:{name:"GOKULAVANAN - ROSHAN",phno:"96776 46631 - 98841 92828"}
 },
 {
     name:"Photography contest",
@@ -254,5 +254,5 @@ Character skill off.`,
     • Mobile and camera photographs only. Digitally created images are strictly prohibited.`,
     link:"",
     staffcoordinator:{name:"",phno:""},
-    studentcoordinator:{name:"",phno:""}
+    studentcoordinator:{name:"RITHVIK SIAM - NIRANJAN - GOPIKRISHNAN",phno:"98430 12369 - 84286 16943 - 83000 29383"}
 }]

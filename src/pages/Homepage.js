@@ -38,7 +38,7 @@ const Homepage = ({setevent,home,events,contact,sponsors}) => {
           <div className='text-xl text-center capitalize text-yellow-300'>technical</div>
          {tevent?
           <div className='flex flex-col text-white text-center mt-4 mb-3 md:hidden gap-2'>
-          <Link to="/paperpresentation" className='hover:text-yellow-500 hover:font-bold' >Paper presentation</Link>
+          <Link to="/paperpresentation" className='hover:text-yellow-500 hover:font-bold' >Vision Quest(Paper Presentation)</Link>
           <Link to="/circuitdebug" className='hover:text-yellow-500 hover:font-bold' >Circuit Debug</Link>
           <Link to="/projectexpo" className='hover:text-yellow-500 hover:font-bold' >Project Diplay</Link>
           <Link to="/roboracing" className='hover:text-yellow-500 hover:font-bold' >Robo Racing (Line Follower)</Link>

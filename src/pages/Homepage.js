@@ -38,10 +38,10 @@ const Homepage = ({setevent,home,events,contact,sponsors}) => {
           <div className='text-xl text-center capitalize text-yellow-300'>technical</div>
          {tevent?
           <div className='flex flex-col text-white text-center mt-4 mb-3 md:hidden gap-2'>
-          <Link to="/paperpresentation" className='hover:text-yellow-500 hover:font-bold' >Vision Quest (Paper Presentation)</Link>
+          <Link to="/paperpresentation" className='hover:text-yellow-500 hover:font-bold' >Vision Quest </Link>
           <Link to="/circuitdebug" className='hover:text-yellow-500 hover:font-bold' >Circuit Debug</Link>
           <Link to="/projectexpo" className='hover:text-yellow-500 hover:font-bold' >Project Diplay</Link>
-          <Link to="/roboracing" className='hover:text-yellow-500 hover:font-bold' >Robo Racing (Line Follower)</Link>
+          <Link to="/roboracing" className='hover:text-yellow-500 hover:font-bold' >Robo Racing </Link>
         </div>:
         <div className='text-center mt-4 mb-3 md:hidden'>Technical events provide a platform to showcase the student's ideas and problem solving skills.
         These events are organized to bring out innovative ideas from young minds to solve real-time problems.
@@ -52,10 +52,10 @@ These events are organized to bring out innovative ideas from young minds to sol
 </div>
       </div>
       <div className='flex-col text-white text-left border-l-2 border-yellow-600 pl-4  hidden md:flex gap-2 my-auto'>
-          <Link to="/paperpresentation" className='hover:text-yellow-500 hover:font-bold text-lg ' >Vision Quest (Paper Presentation)</Link>
+          <Link to="/paperpresentation" className='hover:text-yellow-500 hover:font-bold text-lg ' >Vision Quest </Link>
           <Link to="/projectexpo" className='hover:text-yellow-500 hover:font-bold text-lg' >Project Expo</Link>
           <Link to="/circuitdebug" className='hover:text-yellow-500 hover:font-bold text-lg' >Circuit Debug</Link>
-          <Link to="/roboracing" className='hover:text-yellow-500 hover:font-bold text-lg' >Robo Racing (Line Follower)</Link>
+          <Link to="/roboracing" className='hover:text-yellow-500 hover:font-bold text-lg' >Robo Racing </Link>
         </div>
       </div>
           <hr className='border-4 border-yellow-600 mb-10 md:hidden rounded-xl mx-36' data-aos="fade-in"/>

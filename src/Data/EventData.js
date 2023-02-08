@@ -33,8 +33,8 @@ Topics:
     -𝑃𝑟𝑒𝑠𝑒𝑛𝑡𝑒𝑟𝑠 𝑎𝑟𝑒 𝑟𝑒𝑞𝑢𝑒𝑠𝑡𝑒𝑑 𝑡𝑜 𝑠𝑒𝑛𝑑 𝑦𝑜𝑢𝑟 𝑝𝑟𝑒𝑠𝑒𝑛𝑡𝑎𝑡𝑖𝑜𝑛 𝑖𝑛 𝑎𝑑𝑣𝑎𝑛𝑐𝑒 𝑡𝑜 𝑎𝑣𝑜𝑖𝑑 𝑎𝑛𝑦 𝑙𝑎𝑠𝑡-𝑚𝑖𝑛𝑢𝑡𝑒 𝑡𝑒𝑐ℎ𝑛𝑜𝑙𝑜𝑔𝑦 𝑖𝑠𝑠𝑢𝑒𝑠.
     -𝑇ℎ𝑒 𝑑𝑒𝑎𝑑𝑙𝑖𝑛𝑒 𝑓𝑜𝑟 𝑝𝑟𝑒𝑠𝑒𝑛𝑡𝑎𝑡𝑖𝑜𝑛 𝑠𝑢𝑏𝑚𝑖𝑠𝑠𝑖𝑜𝑛: 17/02/2022 12:00𝑃𝑀.`,
     prize:``,
-    link:"1",
-    studentcoordinator:{name:"KARPAGAM - THAMIZHARASI - GANESH",phno:"73585 00863 - 63691 97557 - 63817 96785"}
+    link:"https://docs.google.com/forms/d/1GYuepyKfNLAgfkVvrYxGQhayupMMuruUgocMDbNXMgQ/viewform?pli=1&pli=1&edit_requested=true",
+    studentcoordinator:{name:"KARPAGAM - THAMIZHARASI - GANESH",phno:"7358500863 - 6369197557 - 6381796785"}
 },
 {
     name:"𝑪𝑰𝑹𝑪𝑼𝑰𝑻 𝑫𝑬𝑩𝑼𝑮𝑮𝑰𝑵𝑮",
@@ -57,9 +57,9 @@ Topics:
 4.𝑃𝑎𝑟𝑡𝑖𝑐𝑖𝑝𝑎𝑛𝑡 𝑐𝑒𝑟𝑡𝑖𝑓𝑖𝑐𝑎𝑡𝑒 𝑤𝑖𝑙𝑙 𝑏𝑒 𝑝𝑟𝑜𝑣𝑖𝑑𝑒𝑑 𝑎𝑡 𝑡ℎ𝑒 𝑒𝑛𝑑 𝑜𝑓 𝑡ℎ𝑒 𝑒𝑣𝑒𝑛𝑡.
 5.𝐼𝑑𝑒𝑛𝑡𝑖𝑡𝑦 𝑐𝑎𝑟𝑑 𝑖𝑠 𝑀𝑎𝑛𝑑𝑎𝑡𝑜𝑟𝑦.
 6.𝐿𝑎𝑠𝑡 𝑑𝑎𝑡𝑒 𝑓𝑜𝑟 𝑡ℎ𝑒 𝑟𝑒𝑔𝑖𝑠𝑡𝑟𝑎𝑡𝑖𝑜𝑛 𝑖𝑠 17/02/2022.`,
-    link:"",
+    link:"https://docs.google.com/forms/d/1GYuepyKfNLAgfkVvrYxGQhayupMMuruUgocMDbNXMgQ/viewform?pli=1&pli=1&edit_requested=true",
     staffcoordinator:{name:"",phno:""},
-    studentcoordinator:{name:"SEDHURAM - SABAPATHI - AMRITHA",phno:"96554 54769 - 94887 29472 - 73972 47238"}
+    studentcoordinator:{name:"SEDHURAM - SABAPATHI - AMRITHA",phno:"9655454769 - 9488729472 - 7397247238"}
 },
 {
     name:"𝑷𝑹𝑶𝑱𝑬𝑪𝑻 𝑬𝑿𝑷𝑶",
@@ -79,9 +79,9 @@ Topics:
     -𝑌𝑜𝑢 𝑤𝑖𝑙𝑙 𝑏𝑒 𝑎𝑙𝑙𝑜𝑤𝑒𝑑 𝑡𝑜 𝑒𝑥𝑝𝑙𝑎𝑖𝑛 𝑦𝑜𝑢𝑟 𝑚𝑜𝑑𝑒𝑙 𝑖𝑛 10 𝑚𝑖𝑛𝑠.
     -𝐻𝑎𝑣𝑒 𝑡𝑜 𝑏𝑟𝑖𝑛𝑔 𝑡ℎ𝑒𝑖𝑟 𝑜𝑤𝑛 𝑙𝑎𝑝𝑡𝑜𝑝𝑠 𝑎𝑛𝑑 𝑜𝑡ℎ𝑒𝑟 𝑒𝑞𝑢𝑖𝑝𝑚𝑒𝑛𝑡 𝑟𝑒𝑙𝑎𝑡𝑒𝑑 𝑦𝑜 𝑡ℎ𝑒𝑖𝑟 𝑝𝑟𝑜𝑗𝑒𝑐𝑡𝑠
 `,
-    link:"",
+    link:"https://docs.google.com/forms/d/1GYuepyKfNLAgfkVvrYxGQhayupMMuruUgocMDbNXMgQ/viewform?pli=1&pli=1&edit_requested=true",
     staffcoordinator:{name:"",phno:""},
-    studentcoordinator:{name:"PRIYA - VIGNESHWARAN - JEEVIKA",phno:"63836 99176 - 63695 74941 - 93607 34141"}
+    studentcoordinator:{name:"PRIYA - VIGNESHWARAN - JEEVIKA",phno:"6383699176 - 6369574941 - 9360734141"}
 },
 {
     name:"𝑹𝑶𝑩𝑶 𝑹𝑨𝑪𝑰𝑵𝑮",
@@ -93,9 +93,9 @@ Topics:
     3.𝑃𝑎𝑟𝑡𝑖𝑐𝑖𝑝𝑎𝑛𝑡𝑠 𝑎𝑟𝑒 𝑛𝑜𝑡 𝑎𝑙𝑙𝑜𝑤𝑒𝑑 𝑡𝑜 𝑡𝑜𝑢𝑐ℎ 𝑡ℎ𝑒 𝑏𝑜𝑡 𝑑𝑢𝑟𝑖𝑛𝑔 𝑟𝑎𝑐𝑖𝑛𝑔.
     4.𝑇ℎ𝑒 𝑡𝑒𝑎𝑚𝑠 𝑐𝑎𝑛𝑛𝑜𝑡 𝑐ℎ𝑎𝑛𝑔𝑒 𝑏𝑎𝑡𝑡𝑒𝑟𝑖𝑒𝑠 𝑜𝑛𝑐𝑒 𝑡ℎ𝑒 𝑚𝑎𝑡𝑐ℎ ℎ𝑎𝑠 𝑠𝑡𝑎𝑟𝑡𝑒𝑑.
     5.𝑃𝑎𝑟𝑡𝑖𝑐𝑖𝑝𝑎𝑛𝑡𝑠 𝑠ℎ𝑜𝑢𝑙𝑑 𝑝𝑜𝑠𝑠𝑒𝑠 𝑎 𝑣𝑎𝑙𝑖𝑑 𝑖𝑑𝑒𝑛𝑡𝑖𝑡𝑦 𝑐𝑎𝑟𝑑 𝑓𝑟𝑜𝑚 𝑡ℎ𝑖𝑒𝑟 𝑟𝑒𝑠𝑝𝑒𝑐𝑡𝑖𝑣𝑒 𝑖𝑛𝑠𝑡𝑖𝑡𝑢𝑡𝑖𝑜𝑛. `,
-    link:"",
+    link:"https://docs.google.com/forms/d/1GYuepyKfNLAgfkVvrYxGQhayupMMuruUgocMDbNXMgQ/viewform?pli=1&pli=1&edit_requested=true",
     staffcoordinator:{name:"",phno:""},
-    studentcoordinator:{name:"DHANUSH KODI - JOAN DANIEL - JAGAN",phno:"63821 61601 75503 68602 75503 68602"}
+    studentcoordinator:{name:"DHANUSH KODI - JOAN DANIEL - JAGAN",phno:"6382161601 7550368602 7550368602"}
 },
 {
     name:"𝑪𝑶𝑵𝑵𝑬𝑪𝑻𝑰𝑶𝑵",
@@ -108,9 +108,9 @@ Topics:
     4.𝑇ℎ𝑒 𝑡𝑒𝑎𝑚 𝑠ℎ𝑜𝑢𝑙𝑑 𝑎𝑛𝑠𝑤𝑒𝑟 𝑡ℎ𝑒 𝑞𝑢𝑒𝑠𝑡𝑖𝑜𝑛 𝑤𝑖𝑡ℎ𝑖𝑛 𝑡ℎ𝑒 𝑡𝑖𝑚𝑒𝑙𝑖𝑛𝑒 𝑝𝑟𝑜𝑣𝑖𝑑𝑒𝑑.
     5.𝑇ℎ𝑒 𝑤𝑖𝑛𝑛𝑖𝑛𝑔 𝑡𝑒𝑎𝑚 𝑤𝑖𝑙𝑙 𝑏𝑒 𝑝𝑟𝑜𝑚𝑜𝑡𝑒𝑑 𝑡𝑜 𝑠𝑒𝑚𝑖-𝑓𝑖𝑛𝑎𝑙𝑠 𝑎𝑛𝑑 𝑡ℎ𝑒 𝑠𝑎𝑚𝑒 𝑟𝑢𝑙𝑒 𝑤𝑖𝑙𝑙 𝑏𝑒 𝑎𝑝𝑝𝑙𝑖𝑐𝑎𝑏𝑙𝑒 𝑓𝑜𝑟 𝑡ℎ𝑒 𝑠𝑒𝑚𝑖𝑓𝑖𝑛𝑎𝑙𝑠 𝑎𝑛𝑑 𝑓𝑖𝑛𝑎𝑙𝑠.
     6.𝐼𝑛 𝑐𝑎𝑠𝑒 𝑜𝑓 𝑐ℎ𝑒𝑎𝑡𝑖𝑛𝑔 𝑡ℎ𝑒 𝑡𝑒𝑎𝑚 𝑤𝑖𝑙𝑙 𝑏𝑒 𝑑𝑖𝑟𝑒𝑐𝑡𝑙𝑦 𝑒𝑙𝑖𝑚𝑖𝑛𝑎𝑡𝑒𝑑 𝑓𝑟𝑜𝑚 𝑡ℎ𝑒 𝑒𝑣𝑒𝑛𝑡.`,
-    link:"",
+    link:"https://docs.google.com/forms/d/1GYuepyKfNLAgfkVvrYxGQhayupMMuruUgocMDbNXMgQ/viewform?pli=1&pli=1&edit_requested=true",
     staffcoordinator:{name:"",phno:""},
-    studentcoordinator:{name:"PARVATHANI - PUGAZHANTHI - SIDDARTH",phno:"96552 55722 - 63810 64804 - 90809 66868"}
+    studentcoordinator:{name:"PARVATHANI - PUGAZHANTHI - SIDDARTH",phno:"9655255722 - 6381064804 - 9080966868"}
 },
 {
     name:"𝑴𝑬𝑳𝑶𝑴𝑨𝑵𝑰𝑨𝑪",
@@ -133,9 +133,9 @@ Topics:
 
 𝑅𝑜𝑢𝑛𝑑-3(𝐿𝑖𝑝 𝑆𝑦𝑛𝑐 𝐵𝑎𝑡𝑡𝑙𝑒):
 𝐸𝑥𝑝𝑟𝑒𝑠𝑠 𝑡ℎ𝑒 𝑠𝑜𝑛𝑔 𝑡ℎ𝑟𝑜𝑢𝑔ℎ 𝑙𝑖𝑝 𝑠𝑦𝑛𝑐𝑖𝑛𝑔.`,
-    link:"",
+    link:"https://docs.google.com/forms/d/1GYuepyKfNLAgfkVvrYxGQhayupMMuruUgocMDbNXMgQ/viewform?pli=1&pli=1&edit_requested=true",
     staffcoordinator:{name:"",phno:""},
-    studentcoordinator:{name:"VIBINKUMAR - MAHATHI - SHANMUGA PRIYA",phno:"93602 49708 - 63851 06324 - 97910 82160"}
+    studentcoordinator:{name:"VIBINKUMAR - MAHATHI - SHANMUGA PRIYA",phno:"9360249708 - 6385106324 - 9791082160"}
 },
 {
     name:"𝑴𝒀𝑻𝑯 𝑶𝑹 𝑭𝑨𝑪𝑻",
@@ -159,9 +159,9 @@ Topics:
     𝑹𝒐𝒖𝒏𝒅 3:
     -𝐶ℎ𝑖𝑙𝑑ℎ𝑜𝑜𝑑 𝑝𝑖𝑐𝑠 𝑜𝑓 𝑎𝑐𝑡𝑜𝑟𝑠 𝑤𝑖𝑙𝑙 𝑏𝑒 𝑑𝑖𝑠𝑝𝑙𝑎𝑦𝑒𝑑 𝑓𝑜𝑟 𝑒𝑎𝑐ℎ 𝑡𝑒𝑎𝑚𝑠.
     -𝐸𝑎𝑐ℎ 𝑡𝑒𝑎𝑚 𝑠ℎ𝑜𝑢𝑙𝑑 𝑚𝑎𝑡𝑐ℎ 𝑡ℎ𝑒 𝑐𝑜𝑟𝑟𝑒𝑐𝑡 𝑐ℎ𝑖𝑙𝑑ℎ𝑜𝑜𝑑 𝑖𝑚𝑎𝑔𝑒𝑠 𝑤𝑖𝑡ℎ𝑖𝑛 𝑎 𝑔𝑖𝑣𝑒𝑛 𝑡𝑖𝑚𝑒.`,
-    link:"",
+    link:"https://docs.google.com/forms/d/1GYuepyKfNLAgfkVvrYxGQhayupMMuruUgocMDbNXMgQ/viewform?pli=1&pli=1&edit_requested=true",
     staffcoordinator:{name:"",phno:""},
-    studentcoordinator:{name:"SUGUNESAN - ROSHINI",phno:"91766 53982 - 81228 99660"}
+    studentcoordinator:{name:"SUGUNESAN - ROSHINI",phno:"9176653982 - 8122899660"}
 },
 {
     name:"𝑴𝑼𝑹𝑫𝑬𝑹 𝑴𝒀𝑺𝑻𝑬𝑹𝒀",
@@ -184,9 +184,9 @@ Topics:
     
     𝑅𝑜𝑢𝑛𝑑 3:
     -𝐸𝑥𝑝𝑒𝑐𝑡 𝑡ℎ𝑒 𝑢𝑛𝑒𝑥𝑝𝑒𝑐𝑡𝑒𝑑 𝑡𝑜 𝑢𝑛𝑓𝑜𝑙𝑑 𝑡ℎ𝑒 𝑚𝑦𝑠𝑡𝑒𝑟𝑖𝑜𝑢𝑠 𝑚𝑦𝑠𝑡𝑒𝑟𝑦.`,
-    link:"https://docs.google.com/forms/d/1GYuepyKfNLAgfkVvrYxGQhayupMMuruUgocMDbNXMgQ/edit?pli=1",
+    link:"https://docs.google.com/forms/d/1GYuepyKfNLAgfkVvrYxGQhayupMMuruUgocMDbNXMgQ/viewform?pli=1&pli=1&edit_requested=true",
     staffcoordinator:{name:"",phno:""},
-    studentcoordinator:{name:"M SYED MEERAN - R NIVETHA - T THAKSHANA",phno:"89254 05913 - 76393 21092 - 93456 33797"}
+    studentcoordinator:{name:"M SYED MEERAN - R NIVETHA - T THAKSHANA",phno:"8925405913  7639321092  9345633797"}
 },
 {
     name:"𝑮𝑨𝑴𝑰𝑵𝑮",
@@ -228,9 +228,9 @@ Topics:
     𝑅𝑢𝑙𝑒𝑠 𝐹𝑜𝑟 𝐶𝑙𝑎𝑠ℎ 𝑆𝑞𝑢𝑎𝑑:
     -𝑁𝑜 𝑟𝑢𝑙𝑒𝑠 𝑎𝑛𝑑 𝑛𝑜 𝑛𝑎𝑑𝑒𝑠.
     -𝐶ℎ𝑎𝑟𝑎𝑐𝑡𝑒𝑟 𝑠𝑘𝑖𝑙𝑙 𝑜𝑓𝑓.`,
-    link:"",
+    link:"https://docs.google.com/forms/d/1GYuepyKfNLAgfkVvrYxGQhayupMMuruUgocMDbNXMgQ/viewform?pli=1&pli=1&edit_requested=true",
     staffcoordinator:{name:"",phno:""},
-    studentcoordinator:{name:"GOKULAVANAN - ROSHAN",phno:"96776 46631 - 98841 92828"}
+    studentcoordinator:{name:"GOKULAVANAN - ROSHAN",phno:"9677646631 - 9884192828"}
 },
 {
     name:"𝑷𝒉𝒐𝒕𝒐𝒈𝒓𝒂𝒑𝒉𝒚",
@@ -248,7 +248,7 @@ Topics:
     •𝑈𝑝𝑙𝑜𝑎𝑑 𝑟𝑒𝑠𝑜𝑙𝑢𝑡𝑖𝑜𝑛 𝑢𝑝𝑡𝑜8𝑘(ℎ𝑖𝑔ℎ𝑒𝑟 𝑟𝑒𝑠𝑜𝑙𝑢𝑡𝑖𝑜𝑛 𝑟𝑒𝑐𝑜𝑚𝑚𝑒𝑛𝑑𝑒𝑑).
     •𝑇ℎ𝑒 𝑑𝑒𝑐𝑖𝑠𝑖𝑜𝑛 𝑜𝑓 𝑡ℎ𝑒 𝑗𝑢𝑑𝑔𝑒 𝑖𝑠 𝑓𝑖𝑛𝑎𝑙.
     •𝑀𝑜𝑏𝑖𝑙𝑒 𝑎𝑛𝑑 𝑐𝑎𝑚𝑒𝑟𝑎 𝑝ℎ𝑜𝑡𝑜𝑔𝑟𝑎𝑝ℎ𝑠 𝑜𝑛𝑙𝑦.𝐷𝑖𝑔𝑖𝑡𝑎𝑙𝑙𝑦 𝑐𝑟𝑒𝑎𝑡𝑒𝑑 𝑝ℎ𝑜𝑡𝑜𝑔𝑟𝑎𝑝ℎ𝑠 𝑜𝑛𝑙𝑦.𝐷𝑖𝑔𝑖𝑡𝑎𝑙𝑙𝑦 𝑐𝑟𝑒𝑎𝑡𝑒𝑑 𝑖𝑚𝑎𝑔𝑒𝑠 𝑎𝑟𝑒 𝑠𝑡𝑟𝑖𝑐𝑡𝑙𝑦 𝑝𝑟𝑜ℎ𝑖𝑏𝑖𝑡𝑒𝑑.`,
-    link:"",
+    link:"https://docs.google.com/forms/d/1GYuepyKfNLAgfkVvrYxGQhayupMMuruUgocMDbNXMgQ/viewform?pli=1&pli=1&edit_requested=true",
     staffcoordinator:{name:"",phno:""},
-    studentcoordinator:{name:"RITHVIK SIAM - NIRANJAN - GOPIKRISHNAN",phno:"98430 12369 - 84286 16943 - 83000 29383"}
+    studentcoordinator:{name:"RITHVIK SIAM - NIRANJAN - GOPIKRISHNAN",phno:"9843012369 - 8428616943 - 8300029383"}
 }]

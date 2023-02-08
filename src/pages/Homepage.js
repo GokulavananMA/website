@@ -5,6 +5,8 @@ import Aos from 'aos'
 import 'aos/dist/aos.css'
 import logo from '../assets/logo.PNG'
 import Countdown from '../component/calculateTime'
+import logo3 from '../assets/logo3.PNG'
+import logo4 from '../assets/logo4.PNG'
 
 const Homepage = ({setevent,home,events,contact,sponsors}) => {
   useEffect(()=>{
@@ -63,7 +65,7 @@ These events are organized to bring out innovative ideas from young minds to sol
           <Link to="/connection" className='hover:text-yellow-500 hover:font-bold text-lg' >Connection</Link>
           <Link to="/melomoniac" className='hover:text-yellow-500 hover:font-bold text-lg' >Melomoniac</Link>
           <Link to="/mythorfact" className='hover:text-yellow-500 hover:font-bold text-lg' >Myth or Fact</Link>
-          <Link to="/murderandmystery" className='hover:text-yellow-500 hover:font-bold text-lg' >Murder and Mystery</Link>
+          <Link to="/murderandmystery" className='hover:text-yellow-500 hover:font-bold text-lg' >Crack the Codes</Link>
         </div>
 
       <div className='px-10 bg-slate-700 py-2 border-4 border-yellow-500 rounded-lg shadow-lg flex flex-col items-center md:w-2/6'>
@@ -121,8 +123,8 @@ These events are organized to bring out innovative ideas from young minds to sol
 <div data-aos="fade-up">
     <div className='text-center underline text-2xl capitalize font-bold text-yellow-600 pt-20' ref={contact}>Contacts</div>
     <div className='flex flex-col gap-10  my-10 items-center md:flex-row'>
-      <img className='h-40 w-40' src={logo}/>
-      <img className='h-40 w-40' src={logo}/>
+      <img className='h-40 w-40' src={logo3}/>
+      <img className='h-40 w-40' src={logo4}/>
       <div className='text-center'>
         <div className='text-xl font-bold'>
           Converor & HOD
@@ -130,7 +132,7 @@ These events are organized to bring out innovative ideas from young minds to sol
         <div>
           Dr.R.UMA MAHESHWARI
         </div>
-        <a href='tel:+919790686771'>+91 +9790686771</a>
+        <a href='tel:+919790686771'>+91 9790686771</a>
       </div>
     </div>
     <div className='flex flex-col md:flex-row gap-10 text-center'>

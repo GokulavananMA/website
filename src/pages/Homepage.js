@@ -75,7 +75,7 @@ These events are organized to bring out innovative ideas from young minds to sol
           <Link to="/connection" className='hover:text-yellow-500 hover:font-bold text-lg' >Connection</Link>
           <Link to="/melomoniac" className='hover:text-yellow-500 hover:font-bold text-lg' >Melomoniac</Link>
           <Link to="/mythorfact" className='hover:text-yellow-500 hover:font-bold text-lg' >Myth or Fact</Link>
-          <Link to="/murderandmystery" className='hover:text-yellow-500 hover:font-bold text-lg' >Murder and Mystery</Link>
+          <Link to="/murderandmystery" className='hover:text-yellow-500 hover:font-bold text-lg' >Crack the Codes</Link>
         </div>:
         <div className='text-center mt-4 mb-3 md:hidden'>Non-technical events include 5 fun filled events that challenge your mental strength and artistic views.</div>}
         <button onClick={()=>setntevent(!ntevent)} className='py-1 px-2 bg-yellow-500 text-white rounded-lg md:hidden'>view</button>

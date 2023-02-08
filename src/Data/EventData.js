@@ -186,7 +186,7 @@ Topics:
     -𝐸𝑥𝑝𝑒𝑐𝑡 𝑡ℎ𝑒 𝑢𝑛𝑒𝑥𝑝𝑒𝑐𝑡𝑒𝑑 𝑡𝑜 𝑢𝑛𝑓𝑜𝑙𝑑 𝑡ℎ𝑒 𝑚𝑦𝑠𝑡𝑒𝑟𝑖𝑜𝑢𝑠 𝑚𝑦𝑠𝑡𝑒𝑟𝑦.`,
     link:"https://docs.google.com/forms/d/1GYuepyKfNLAgfkVvrYxGQhayupMMuruUgocMDbNXMgQ/viewform?pli=1&pli=1&edit_requested=true",
     staffcoordinator:{name:"",phno:""},
-    studentcoordinator:{name:"M SYED MEERAN - R NIVETHA - T THAKSHANA",phno:"8925405913  7639321092  9345633797"}
+    studentcoordinator:{name:"M SYED MEERAN - R NIVETHA - T THAKSHANA",phno:"8925405913 - 7639321092 - 9345633797"}
 },
 {
     name:"𝑮𝑨𝑴𝑰𝑵𝑮",

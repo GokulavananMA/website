@@ -154,9 +154,9 @@ const Homepage = ({setevent,home,events,contact,sponsors}) => {
 
     </div>
     <div className='flex flex-row gap-10 w-100 justify-between rounded-lg mt-20 px-5 py-3 mb-10' data-aos="fade-up">
-    <a href='vv' target="__blank"><img className='h-16 w-16 bg-yellow-500 p-1 hover:bg-yellow-600 rounded-lg md:h-20 md:w-20' src='https://cdn-icons-png.flaticon.com/512/717/717392.png ' alt="logo"/></a>
-    <a href='vv' target="__blank"><img className='h-16 w-16 bg-yellow-500 p-1 hover:bg-yellow-600 rounded-lg md:h-20 md:w-20' src='https://cdn-icons-png.flaticon.com/512/1384/1384028.png' alt="logo"/></a>
-    <a href='vv' target="__blank"><img className='h-16 w-16 bg-yellow-500 p-1 hover:bg-yellow-600 rounded-lg md:h-20 md:w-20' src='https://cdn-icons-png.flaticon.com/512/646/646094.png' alt="logo"/></a>
+    <a href='https://instagram.com/surge_2k23?igshid=OGQ2MjdiOTE=' target="__blank"><img className='h-16 w-16 bg-yellow-500 p-1 hover:bg-yellow-600 rounded-lg md:h-20 md:w-20' src='https://cdn-icons-png.flaticon.com/512/717/717392.png ' alt="logo"/></a>
+    <a href='https://www.youtube.com/channel/UClvIuddT9rvOrkWofrmtGJw' target="__blank"><img className='h-16 w-16 bg-yellow-500 p-1 hover:bg-yellow-600 rounded-lg md:h-20 md:w-20' src='https://cdn-icons-png.flaticon.com/512/1384/1384028.png' alt="logo"/></a>
+    <a href='vecsurge2023@gmail.com' target="__blank"><img className='h-16 w-16 bg-yellow-500 p-1 hover:bg-yellow-600 rounded-lg md:h-20 md:w-20' src='https://cdn-icons-png.flaticon.com/512/646/646094.png' alt="logo"/></a>
     </div>
     </div>
     </div>

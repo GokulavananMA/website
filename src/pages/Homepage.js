@@ -35,7 +35,7 @@ const Homepage = ({setevent,home,events,contact,sponsors}) => {
     <div className='flex flex-col my-10 gap-2 md:gap-20'>
       <div className='flex flex-row gap-20 justify-center w-[100vw] px-20 my-10' data-aos="fade-up">
       <div className='px-10 bg-slate-700 py-2 border-4 border-yellow-500 rounded-lg shadow-lg flex flex-col items-center  md:w-2/6'>
-          <div className='text-xl text-center capitalize text-yellow-300'>technical</div>
+          <div className='text-xl text-center capitalize text-yellow-300'>𝑻𝑬𝑪𝑯𝑵𝑰𝑪𝑨𝑳</div>
          {tevent?
           <div className='flex flex-col text-white text-center mt-4 mb-3 md:hidden gap-2'>
           <Link to="/paperpresentation" className='hover:text-yellow-500 hover:font-bold' >Vision Quest </Link>
@@ -43,12 +43,10 @@ const Homepage = ({setevent,home,events,contact,sponsors}) => {
           <Link to="/projectexpo" className='hover:text-yellow-500 hover:font-bold' >Project Diplay</Link>
           <Link to="/roboracing" className='hover:text-yellow-500 hover:font-bold' >Robo Racing </Link>
         </div>:
-        <div className='text-center mt-4 mb-3 md:hidden'>Technical events provide a platform to showcase the student's ideas and problem solving skills.
-        These events are organized to bring out innovative ideas from young minds to solve real-time problems.
+        <div className='text-center mt-4 mb-3 md:hidden'>𝑻𝒆𝒄𝒉𝒏𝒊𝒄𝒂𝒍 𝑒𝑣𝑒𝑛𝑡𝑠 𝑝𝑟𝑜𝑣𝑖𝑑𝑒 𝑎 𝑝𝑙𝑎𝑡𝑓𝑜𝑟𝑚 𝑡𝑜 𝑠ℎ𝑜𝑤𝑐𝑎𝑠𝑒 𝑡ℎ𝑒 𝑠𝑡𝑢𝑑𝑒𝑛𝑡'𝑠 𝑖𝑑𝑒𝑎𝑠 𝑎𝑛𝑑 𝑝𝑟𝑜𝑏𝑙𝑒𝑚 𝑠𝑜𝑙𝑣𝑖𝑛𝑔 𝑠𝑘𝑖𝑙𝑙𝑠. 𝑇ℎ𝑒𝑠𝑒 𝑒𝑣𝑒𝑛𝑡𝑠 𝑎𝑟𝑒 𝑜𝑟𝑔𝑎𝑛𝑖𝑧𝑒𝑑 𝑦𝑜 𝑏𝑟𝑖𝑛𝑔 𝑜𝑢𝑡 𝑖𝑛𝑛𝑜𝑣𝑎𝑡𝑖𝑣𝑒 𝑖𝑑𝑒𝑎𝑠 𝑓𝑟𝑜𝑚 𝑦𝑜𝑢𝑛𝑔 𝑚𝑖𝑛𝑑𝑠 𝑡𝑜 𝑠𝑜𝑙𝑣𝑒 𝑟𝑒𝑎𝑙-𝑡𝑖𝑚𝑒 𝑝𝑟𝑜𝑏𝑙𝑒𝑚𝑠.
         </div>}
         <button onClick={()=>settevent(!tevent)} className='py-1 px-2 bg-yellow-500 rounded-lg text-white md:hidden'>view</button>
-        <div className='text-center my-2 hidden md:block'>Technical events provide a platform to showcase the student's ideas and problem solving skills.
-These events are organized to bring out innovative ideas from young minds to solve real-time problems.
+        <div className='text-center my-2 hidden md:block'>𝑻𝒆𝒄𝒉𝒏𝒊𝒄𝒂𝒍 𝑒𝑣𝑒𝑛𝑡𝑠 𝑝𝑟𝑜𝑣𝑖𝑑𝑒 𝑎 𝑝𝑙𝑎𝑡𝑓𝑜𝑟𝑚 𝑡𝑜 𝑠ℎ𝑜𝑤𝑐𝑎𝑠𝑒 𝑡ℎ𝑒 𝑠𝑡𝑢𝑑𝑒𝑛𝑡'𝑠 𝑖𝑑𝑒𝑎𝑠 𝑎𝑛𝑑 𝑝𝑟𝑜𝑏𝑙𝑒𝑚 𝑠𝑜𝑙𝑣𝑖𝑛𝑔 𝑠𝑘𝑖𝑙𝑙𝑠. 𝑇ℎ𝑒𝑠𝑒 𝑒𝑣𝑒𝑛𝑡𝑠 𝑎𝑟𝑒 𝑜𝑟𝑔𝑎𝑛𝑖𝑧𝑒𝑑 𝑦𝑜 𝑏𝑟𝑖𝑛𝑔 𝑜𝑢𝑡 𝑖𝑛𝑛𝑜𝑣𝑎𝑡𝑖𝑣𝑒 𝑖𝑑𝑒𝑎𝑠 𝑓𝑟𝑜𝑚 𝑦𝑜𝑢𝑛𝑔 𝑚𝑖𝑛𝑑𝑠 𝑡𝑜 𝑠𝑜𝑙𝑣𝑒 𝑟𝑒𝑎𝑙-𝑡𝑖𝑚𝑒 𝑝𝑟𝑜𝑏𝑙𝑒𝑚𝑠.
 </div>
       </div>
       <div className='flex-col text-white text-left border-l-2 border-yellow-600 pl-4  hidden md:flex gap-2 my-auto'>
@@ -69,7 +67,7 @@ These events are organized to bring out innovative ideas from young minds to sol
         </div>
 
       <div className='px-10 bg-slate-700 py-2 border-4 border-yellow-500 rounded-lg shadow-lg flex flex-col items-center md:w-2/6'>
-          <div className='text-xl text-center capitalize text-yellow-300'>Non technical</div>
+          <div className='text-xl text-center capitalize text-yellow-300'>𝑵𝑶𝑵 𝑻𝑬𝑪𝑯𝑵𝑰𝑪𝑨𝑳</div>
          {ntevent?
           <div className='flex flex-col text-white text-center mt-4 mb-3 md:hidden gap-2'>
           <Link to="/connection" className='hover:text-yellow-500 hover:font-bold text-lg' >Connection</Link>
@@ -77,9 +75,9 @@ These events are organized to bring out innovative ideas from young minds to sol
           <Link to="/mythorfact" className='hover:text-yellow-500 hover:font-bold text-lg' >Myth or Fact</Link>
           <Link to="/murderandmystery" className='hover:text-yellow-500 hover:font-bold text-lg' >Crack the Codes</Link>
         </div>:
-        <div className='text-center mt-4 mb-3 md:hidden'>Non-technical events include 5 fun filled events that challenge your mental strength and artistic views.</div>}
+        <div className='text-center mt-4 mb-3 md:hidden'>𝑵𝒐𝒏-𝒕𝒆𝒄𝒉𝒏𝒊𝒄𝒂𝒍 𝑒𝑣𝑒𝑛𝑡𝑠 𝑖𝑛𝑐𝑙𝑢𝑑𝑒 5 𝑓𝑢𝑛 𝑓𝑖𝑙𝑙𝑒𝑑 𝑒𝑣𝑒𝑛𝑡𝑠 𝑡ℎ𝑎𝑡 𝑐ℎ𝑎𝑙𝑙𝑒𝑛𝑔𝑒 𝑦𝑜𝑢𝑟 𝑚𝑒𝑛𝑡𝑎𝑙 𝑠𝑡𝑟𝑒𝑛𝑔𝑡ℎ 𝑎𝑛𝑑 𝑎𝑟𝑡𝑖𝑠𝑡𝑖𝑐 𝑣𝑖𝑒𝑤𝑠.</div>}
         <button onClick={()=>setntevent(!ntevent)} className='py-1 px-2 bg-yellow-500 text-white rounded-lg md:hidden'>view</button>
-        <div className='text-center mt-4 mb-3 hidden md:block'>Non-technical events include 5 fun filled events that challenge your mental strength and artistic views.</div>
+        <div className='text-center mt-4 mb-3 hidden md:block'>𝑵𝒐𝒏-𝒕𝒆𝒄𝒉𝒏𝒊𝒄𝒂𝒍 𝑒𝑣𝑒𝑛𝑡𝑠 𝑖𝑛𝑐𝑙𝑢𝑑𝑒 5 𝑓𝑢𝑛 𝑓𝑖𝑙𝑙𝑒𝑑 𝑒𝑣𝑒𝑛𝑡𝑠 𝑡ℎ𝑎𝑡 𝑐ℎ𝑎𝑙𝑙𝑒𝑛𝑔𝑒 𝑦𝑜𝑢𝑟 𝑚𝑒𝑛𝑡𝑎𝑙 𝑠𝑡𝑟𝑒𝑛𝑔𝑡ℎ 𝑎𝑛𝑑 𝑎𝑟𝑡𝑖𝑠𝑡𝑖𝑐 𝑣𝑖𝑒𝑤𝑠.</div>
       </div>
       
       </div>
@@ -87,15 +85,15 @@ These events are organized to bring out innovative ideas from young minds to sol
 
           <div className='flex flex-row gap-20 justify-center my-10 mx-20' data-aos="fade-up">
       <div className='px-10 bg-slate-700 py-2 border-4 border-yellow-500 rounded-lg shadow-lg flex flex-col items-center md:w-2/6'>
-          <div className='text-xl text-center capitalize text-yellow-300'>Online events</div>
+          <div className='text-xl text-center capitalize text-yellow-300'>𝑶𝑵𝑳𝑰𝑵𝑬 𝑬𝑽𝑬𝑵𝑻</div>
          {oevents?
           <div className='flex flex-col text-white text-center mt-4 mb-3 md:hidden gap-2'>
           <Link to="/gaming" className='hover:text-yellow-500 hover:font-bold text-lg' >Gaming</Link>
           <Link to="/photography" className='hover:text-yellow-500 hover:font-bold text-lg' >Photography</Link>
         </div>:
-        <div className='text-center mt-4 mb-3 md:hidden'>Online events are to exhibit your artistic views, gaming skills, and eye-hand coordination.</div>}
+        <div className='text-center mt-4 mb-3 md:hidden'>𝑶𝒏𝒍𝒊𝒏𝒆 𝒆𝒗𝒆𝒏𝒕𝒔 𝑎𝑟𝑒 𝑡𝑜 𝑒𝑥ℎ𝑖𝑏𝑖𝑡 𝑦𝑜𝑢𝑟 𝑎𝑟𝑡𝑖𝑠𝑡𝑖𝑐 𝑣𝑖𝑒𝑤𝑠,𝑔𝑎𝑚𝑖𝑛𝑔 𝑠𝑘𝑖𝑙𝑙𝑠 𝑎𝑛𝑑 𝑒𝑦𝑒-ℎ𝑎𝑛𝑑 𝑐𝑜𝑜𝑟𝑑𝑖𝑛𝑎𝑡𝑖𝑜𝑛.</div>}
         <button onClick={()=>setoevents(!oevents)} className='py-1 px-2 bg-yellow-500 rounded-lg text-white md:hidden'>view</button>
-        <div className='text-center mt-4 mb-3 hidden md:block'>Online events are to exhibit your artistic views, gaming skills, and eye-hand coordination.</div>
+        <div className='text-center mt-4 mb-3 hidden md:block'>𝑶𝒏𝒍𝒊𝒏𝒆 𝒆𝒗𝒆𝒏𝒕𝒔 𝑎𝑟𝑒 𝑡𝑜 𝑒𝑥ℎ𝑖𝑏𝑖𝑡 𝑦𝑜𝑢𝑟 𝑎𝑟𝑡𝑖𝑠𝑡𝑖𝑐 𝑣𝑖𝑒𝑤𝑠,𝑔𝑎𝑚𝑖𝑛𝑔 𝑠𝑘𝑖𝑙𝑙𝑠 𝑎𝑛𝑑 𝑒𝑦𝑒-ℎ𝑎𝑛𝑑 𝑐𝑜𝑜𝑟𝑑𝑖𝑛𝑎𝑡𝑖𝑜𝑛.</div>
       </div>
       <div className='flex-col text-white text-left border-l-2 border-yellow-600 pl-4  my-auto hidden md:flex gap-2'>
           <Link to="/gaming" className='hover:text-yellow-500 hover:font-bold text-lg' >Gaming</Link>

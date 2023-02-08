@@ -38,7 +38,7 @@ const Homepage = ({setevent,home,events,contact,sponsors}) => {
           <div className='text-xl text-center capitalize text-yellow-300'>technical</div>
          {tevent?
           <div className='flex flex-col text-white text-center mt-4 mb-3 md:hidden gap-2'>
-          <Link to="/paperpresentation" className='hover:text-yellow-500 hover:font-bold' >Vision Quest(Paper Presentation)</Link>
+          <Link to="/paperpresentation" className='hover:text-yellow-500 hover:font-bold' >Vision Quest (Paper Presentation)</Link>
           <Link to="/circuitdebug" className='hover:text-yellow-500 hover:font-bold' >Circuit Debug</Link>
           <Link to="/projectexpo" className='hover:text-yellow-500 hover:font-bold' >Project Diplay</Link>
           <Link to="/roboracing" className='hover:text-yellow-500 hover:font-bold' >Robo Racing (Line Follower)</Link>
@@ -52,7 +52,7 @@ These events are organized to bring out innovative ideas from young minds to sol
 </div>
       </div>
       <div className='flex-col text-white text-left border-l-2 border-yellow-600 pl-4  hidden md:flex gap-2 my-auto'>
-          <Link to="/paperpresentation" className='hover:text-yellow-500 hover:font-bold text-lg ' >Paper presentation</Link>
+          <Link to="/paperpresentation" className='hover:text-yellow-500 hover:font-bold text-lg ' >Vision Quest (Paper Presentation)</Link>
           <Link to="/projectexpo" className='hover:text-yellow-500 hover:font-bold text-lg' >Project Expo</Link>
           <Link to="/circuitdebug" className='hover:text-yellow-500 hover:font-bold text-lg' >Circuit Debug</Link>
           <Link to="/roboracing" className='hover:text-yellow-500 hover:font-bold text-lg' >Robo Racing (Line Follower)</Link>
@@ -129,23 +129,23 @@ These events are organized to bring out innovative ideas from young minds to sol
         <div className='text-xl font-bold'>
           Converor & HOD
         </div>
-        <div>
+        <div className='text-white'>
           Dr.R.UMA MAHESHWARI
         </div>
-        <a href='tel:+919790686771'>+91 9790686771</a>
+        <a href='tel:+919790686771'className='text-white'>+91 9790686771</a>
       </div>
     </div>
     <div className='flex flex-col md:flex-row gap-10 text-center'>
       <div>
         <div className='text-yellow-400 font-bold text-xl'>Staff Coordinator</div>
-        <div className=''>Kasirathi N : <a href='tel:+919940488441'>+91 9940488441</a></div>
-        <div className=''>Rengarajan V :<a href='tel:+918973318299'>+918973318299</a></div>
+        <div className='text-white'>Kasirathi N : <a href='tel:+919940488441'>+91 9940488441</a></div>
+        <div className='text-white'>Rengarajan V :<a href='tel:+918973318299'>+918973318299</a></div>
       </div>
       <div>
         <div className='text-yellow-400 font-bold text-xl'>Student Coordinator</div>
-        <div className=''>Karpagam M : <a href='tel:+917358500863'>+91 7358500863</a></div>
-        <div className=''>Roshan M : <a href='tel:+919884192828'>+91 9884192828</a></div>
-        <div className=''>Sriram G  : <a href='tel:+916383179919'>+91 6383179919</a></div>
+        <div className='text-white'>Karpagam M : <a href='tel:+917358500863'>+91 7358500863</a></div>
+        <div className='text-white'>Roshan M : <a href='tel:+919884192828'>+91 9884192828</a></div>
+        <div className='text-white'>Sriram G  : <a href='tel:+916383179919'>+91 6383179919</a></div>
       </div>
     </div>
     <div className='text-white text-xl text-center my-20' data-aos="fade-up">

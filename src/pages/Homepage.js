@@ -40,7 +40,7 @@ const Homepage = ({setevent,home,events,contact,sponsors}) => {
           <div className='flex flex-col text-white text-center mt-4 mb-3 md:hidden gap-2'>
           <Link to="/paperpresentation" className='hover:text-yellow-500 hover:font-bold' >Vision Quest </Link>
           <Link to="/circuitdebug" className='hover:text-yellow-500 hover:font-bold' >Circuit Debug</Link>
-          <Link to="/projectexpo" className='hover:text-yellow-500 hover:font-bold' >Project Diplay</Link>
+          <Link to="/projectexpo" className='hover:text-yellow-500 hover:font-bold' >Project Expo</Link>
           <Link to="/roboracing" className='hover:text-yellow-500 hover:font-bold' >Robo Racing </Link>
         </div>:
         <div className='text-center mt-4 mb-3 md:hidden'>𝑻𝒆𝒄𝒉𝒏𝒊𝒄𝒂𝒍 𝑒𝑣𝑒𝑛𝑡𝑠 𝑝𝑟𝑜𝑣𝑖𝑑𝑒 𝑎 𝑝𝑙𝑎𝑡𝑓𝑜𝑟𝑚 𝑡𝑜 𝑠ℎ𝑜𝑤𝑐𝑎𝑠𝑒 𝑡ℎ𝑒 𝑠𝑡𝑢𝑑𝑒𝑛𝑡'𝑠 𝑖𝑑𝑒𝑎𝑠 𝑎𝑛𝑑 𝑝𝑟𝑜𝑏𝑙𝑒𝑚 𝑠𝑜𝑙𝑣𝑖𝑛𝑔 𝑠𝑘𝑖𝑙𝑙𝑠. 𝑇ℎ𝑒𝑠𝑒 𝑒𝑣𝑒𝑛𝑡𝑠 𝑎𝑟𝑒 𝑜𝑟𝑔𝑎𝑛𝑖𝑧𝑒𝑑 𝑦𝑜 𝑏𝑟𝑖𝑛𝑔 𝑜𝑢𝑡 𝑖𝑛𝑛𝑜𝑣𝑎𝑡𝑖𝑣𝑒 𝑖𝑑𝑒𝑎𝑠 𝑓𝑟𝑜𝑚 𝑦𝑜𝑢𝑛𝑔 𝑚𝑖𝑛𝑑𝑠 𝑡𝑜 𝑠𝑜𝑙𝑣𝑒 𝑟𝑒𝑎𝑙-𝑡𝑖𝑚𝑒 𝑝𝑟𝑜𝑏𝑙𝑒𝑚𝑠.

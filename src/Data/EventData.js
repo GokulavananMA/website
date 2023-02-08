@@ -161,7 +161,7 @@ Topics:
     -𝐸𝑎𝑐ℎ 𝑡𝑒𝑎𝑚 𝑠ℎ𝑜𝑢𝑙𝑑 𝑚𝑎𝑡𝑐ℎ 𝑡ℎ𝑒 𝑐𝑜𝑟𝑟𝑒𝑐𝑡 𝑐ℎ𝑖𝑙𝑑ℎ𝑜𝑜𝑑 𝑖𝑚𝑎𝑔𝑒𝑠 𝑤𝑖𝑡ℎ𝑖𝑛 𝑎 𝑔𝑖𝑣𝑒𝑛 𝑡𝑖𝑚𝑒.`,
     link:"https://docs.google.com/forms/d/1GYuepyKfNLAgfkVvrYxGQhayupMMuruUgocMDbNXMgQ/viewform?pli=1&pli=1&edit_requested=true",
     staffcoordinator:{name:"",phno:""},
-    studentcoordinator:{name:"SUGUNESAN - ROSHINI",phno:"9176653982 - 8122899660"}
+    studentcoordinator:{name:"THIRSHA - SUGUNESAN - ROSHINI",phno:"9150517150 9176653982  8122899660"}
 },
 {
     name:"𝑪𝑹𝑨𝑪𝑲 𝑻𝑯𝑬 𝑪𝑶𝑫𝑬𝑺",

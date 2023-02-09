@@ -125,7 +125,7 @@ const Homepage = ({setevent,home,events,contact,sponsors}) => {
       <img className='h-40 w-40' src={logo4}/>
       <div className='text-center'>
         <div className='text-xl font-bold'>
-          Converor & HOD
+          Convenor & HOD
         </div>
         <div className='text-white'>
           Dr.R.UMA MAHESHWARI

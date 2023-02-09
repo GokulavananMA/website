@@ -116,7 +116,7 @@ Topics:
     6.𝐼𝑛 𝑐𝑎𝑠𝑒 𝑜𝑓 𝑐ℎ𝑒𝑎𝑡𝑖𝑛𝑔 𝑡ℎ𝑒 𝑡𝑒𝑎𝑚 𝑤𝑖𝑙𝑙 𝑏𝑒 𝑑𝑖𝑟𝑒𝑐𝑡𝑙𝑦 𝑒𝑙𝑖𝑚𝑖𝑛𝑎𝑡𝑒𝑑 𝑓𝑟𝑜𝑚 𝑡ℎ𝑒 𝑒𝑣𝑒𝑛𝑡.`,
     link:"https://docs.google.com/forms/d/1GYuepyKfNLAgfkVvrYxGQhayupMMuruUgocMDbNXMgQ/viewform?pli=1&pli=1&edit_requested=true",
     staffcoordinator:{name:"",phno:""},
-    studentcoordinator:{name:"PARVATHANI - PUGAZHANTHI - SIDDARTH",phno:"9655255722 - 6381064804 - 9080966868"}
+    studentcoordinator:{name:"PARVATHANI - PUGAZHANTHI - SIDDHARTH",phno:"9655255722 - 6381064804 - 9080966868"}
 },
 {
     name:"𝑴𝑬𝑳𝑶𝑴𝑨𝑵𝑰𝑨𝑪",

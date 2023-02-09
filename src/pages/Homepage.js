@@ -75,9 +75,9 @@ const Homepage = ({setevent,home,events,contact,sponsors}) => {
           <Link to="/mythorfact" className='hover:text-yellow-500 hover:font-bold text-lg' >Myth or Fact</Link>
           <Link to="/murderandmystery" className='hover:text-yellow-500 hover:font-bold text-lg' >Crack the Codes</Link>
         </div>:
-        <div className='text-center mt-4 mb-3 md:hidden'>𝑵𝒐𝒏-𝒕𝒆𝒄𝒉𝒏𝒊𝒄𝒂𝒍 𝑒𝑣𝑒𝑛𝑡𝑠 𝑖𝑛𝑐𝑙𝑢𝑑𝑒 5 𝑓𝑢𝑛 𝑓𝑖𝑙𝑙𝑒𝑑 𝑒𝑣𝑒𝑛𝑡𝑠 𝑡ℎ𝑎𝑡 𝑐ℎ𝑎𝑙𝑙𝑒𝑛𝑔𝑒 𝑦𝑜𝑢𝑟 𝑚𝑒𝑛𝑡𝑎𝑙 𝑠𝑡𝑟𝑒𝑛𝑔𝑡ℎ 𝑎𝑛𝑑 𝑎𝑟𝑡𝑖𝑠𝑡𝑖𝑐 𝑣𝑖𝑒𝑤𝑠.</div>}
+        <div className='text-center mt-4 mb-3 md:hidden'>𝑵𝒐𝒏-𝒕𝒆𝒄𝒉𝒏𝒊𝒄𝒂𝒍 𝑒𝑣𝑒𝑛𝑡𝑠 𝑖𝑛𝑐𝑙𝑢𝑑𝑒 4 𝑓𝑢𝑛 𝑓𝑖𝑙𝑙𝑒𝑑 𝑒𝑣𝑒𝑛𝑡𝑠 𝑡ℎ𝑎𝑡 𝑐ℎ𝑎𝑙𝑙𝑒𝑛𝑔𝑒 𝑦𝑜𝑢𝑟 𝑚𝑒𝑛𝑡𝑎𝑙 𝑠𝑡𝑟𝑒𝑛𝑔𝑡ℎ 𝑎𝑛𝑑 𝑎𝑟𝑡𝑖𝑠𝑡𝑖𝑐 𝑣𝑖𝑒𝑤𝑠.</div>}
         <button onClick={()=>setntevent(!ntevent)} className='py-1 px-2 bg-yellow-500 text-white rounded-lg md:hidden'>view</button>
-        <div className='text-center mt-4 mb-3 hidden md:block'>𝑵𝒐𝒏-𝒕𝒆𝒄𝒉𝒏𝒊𝒄𝒂𝒍 𝑒𝑣𝑒𝑛𝑡𝑠 𝑖𝑛𝑐𝑙𝑢𝑑𝑒 5 𝑓𝑢𝑛 𝑓𝑖𝑙𝑙𝑒𝑑 𝑒𝑣𝑒𝑛𝑡𝑠 𝑡ℎ𝑎𝑡 𝑐ℎ𝑎𝑙𝑙𝑒𝑛𝑔𝑒 𝑦𝑜𝑢𝑟 𝑚𝑒𝑛𝑡𝑎𝑙 𝑠𝑡𝑟𝑒𝑛𝑔𝑡ℎ 𝑎𝑛𝑑 𝑎𝑟𝑡𝑖𝑠𝑡𝑖𝑐 𝑣𝑖𝑒𝑤𝑠.</div>
+        <div className='text-center mt-4 mb-3 hidden md:block'>𝑵𝒐𝒏-𝒕𝒆𝒄𝒉𝒏𝒊𝒄𝒂𝒍 𝑒𝑣𝑒𝑛𝑡𝑠 𝑖𝑛𝑐𝑙𝑢𝑑𝑒 4 𝑓𝑢𝑛 𝑓𝑖𝑙𝑙𝑒𝑑 𝑒𝑣𝑒𝑛𝑡𝑠 𝑡ℎ𝑎𝑡 𝑐ℎ𝑎𝑙𝑙𝑒𝑛𝑔𝑒 𝑦𝑜𝑢𝑟 𝑚𝑒𝑛𝑡𝑎𝑙 𝑠𝑡𝑟𝑒𝑛𝑔𝑡ℎ 𝑎𝑛𝑑 𝑎𝑟𝑡𝑖𝑠𝑡𝑖𝑐 𝑣𝑖𝑒𝑤𝑠.</div>
       </div>
       
       </div>

@@ -23,7 +23,7 @@ const Homepage = ({setevent,home,events,contact,sponsors}) => {
       <img className='h-40 w-40 mb-5' src={logo} alt="logo"/>
       <div className='text-red text-2xl text-center'>VELAMMAL ENGINEERING COLLEGE</div>
       <div className='text-slate-100 text-xl text-center'>Department of Electrical and Electronics Engineering</div>
-      <p className='mt-6 text-center sm:px-5 md:px-20 text-lg mb-2'>𝑺𝑼𝑹𝑮𝑬 2𝑲23 𝑖𝑠 𝑐𝑜𝑛𝑑𝑢𝑐𝑡𝑒𝑑 𝑏𝑦 𝑡ℎ𝑒 𝑑𝑒𝑝𝑎𝑟𝑡𝑚𝑒𝑛𝑡 𝑜𝑓 𝐸𝑙𝑒𝑐𝑡𝑟𝑖𝑐𝑎𝑙 𝑎𝑛𝑑 𝐸𝑙𝑒𝑐𝑡𝑟𝑜𝑛𝑖𝑐𝑠 𝐸𝑛𝑔𝑖𝑛𝑒𝑒𝑟𝑖𝑛𝑔 𝑜𝑓 𝑉𝑒𝑙𝑎𝑚𝑚𝑎𝑙 𝐸𝑛𝑔𝑖𝑛𝑒𝑒𝑟𝑖𝑛𝑔 𝐶𝑜𝑙𝑙𝑒𝑔𝑒. 𝑇ℎ𝑖𝑠 𝑓𝑒𝑠𝑡 ℎ𝑜𝑢𝑠𝑒𝑠 𝑣𝑎𝑟𝑖𝑜𝑢𝑠 𝑛𝑒𝑟𝑣𝑒 𝑤𝑟𝑒𝑐𝑘𝑖𝑛𝑔 𝑎𝑛𝑑 𝑖𝑚𝑝𝑟𝑒𝑠𝑠𝑖𝑣𝑒 𝑡𝑒𝑐ℎ𝑛𝑖𝑐𝑎𝑙 𝑎𝑛𝑑 𝑛𝑜𝑛-𝑡𝑒𝑐ℎ𝑛𝑖𝑐𝑎𝑙𝑒𝑣𝑒𝑛𝑡𝑠 𝑡𝑜 𝑡𝑒𝑠𝑡 𝑡ℎ𝑒 𝑠𝑘𝑖𝑙𝑙 𝑠𝑒𝑡 𝑜𝑓 𝑡ℎ𝑒 𝑝𝑎𝑟𝑡𝑖𝑐𝑖𝑝𝑎𝑛𝑡𝑠.𝐴 𝑠𝑡𝑎𝑔𝑒 𝑓𝑜𝑟 𝑒𝑥𝑝𝑟𝑒𝑠𝑠𝑖𝑛𝑔 𝑡ℎ𝑒𝑖𝑟 𝑡𝑎𝑙𝑒𝑛𝑡𝑠 𝑎𝑛𝑑 𝑡𝑜 𝑡𝑎𝑐𝑘𝑙𝑒 𝑡ℎ𝑒 𝑝𝑟𝑜𝑏𝑙𝑒𝑚𝑠 𝑔𝑖𝑣𝑒𝑛 𝑡𝑜 𝑡ℎ𝑒𝑚.𝐵𝑎𝑔 𝑡ℎ𝑒 𝑒𝑥𝑐𝑖𝑡𝑖𝑛𝑔 𝑐𝑎𝑠ℎ 𝑝𝑟𝑖𝑐𝑒𝑠 𝑡𝑜 𝑝𝑟𝑜𝑣𝑒 𝑦𝑜𝑢 𝑎𝑟𝑒 𝑚𝑎𝑠𝑡𝑒𝑟𝑚𝑖𝑛𝑑!𝐶𝑎𝑙𝑙𝑖𝑛𝑔 𝑎𝑙𝑙 𝑡ℎ𝑒 𝑒𝑛𝑡ℎ𝑢𝑠𝑖𝑎𝑠𝑡𝑠 𝑡𝑜 𝑡ℎ𝑖𝑠 𝑔𝑟𝑎𝑛𝑑𝑓𝑒𝑠𝑡!
+      <p className='mt-6 text-center sm:px-5 md:px-20 text-lg mb-2'>𝑺𝑼𝑹𝑮𝑬 2𝑲23 𝑖𝑠 𝑐𝑜𝑛𝑑𝑢𝑐𝑡𝑒𝑑 𝑏𝑦 𝑡ℎ𝑒 𝑑𝑒𝑝𝑎𝑟𝑡𝑚𝑒𝑛𝑡 𝑜𝑓 𝐸𝑙𝑒𝑐𝑡𝑟𝑖𝑐𝑎𝑙 𝑎𝑛𝑑 𝐸𝑙𝑒𝑐𝑡𝑟𝑜𝑛𝑖𝑐𝑠 𝐸𝑛𝑔𝑖𝑛𝑒𝑒𝑟𝑖𝑛𝑔 𝑜𝑓 𝑉𝑒𝑙𝑎𝑚𝑚𝑎𝑙 𝐸𝑛𝑔𝑖𝑛𝑒𝑒𝑟𝑖𝑛𝑔 𝐶𝑜𝑙𝑙𝑒𝑔𝑒. 𝑇ℎ𝑖𝑠 𝑓𝑒𝑠𝑡 ℎ𝑜𝑢𝑠𝑒𝑠 𝑣𝑎𝑟𝑖𝑜𝑢𝑠 𝑛𝑒𝑟𝑣𝑒 𝑤𝑟𝑒𝑐𝑘𝑖𝑛𝑔 𝑎𝑛𝑑 𝑖𝑚𝑝𝑟𝑒𝑠𝑠𝑖𝑣𝑒 𝑡𝑒𝑐ℎ𝑛𝑖𝑐𝑎𝑙 𝑎𝑛𝑑 𝑛𝑜𝑛-𝑡𝑒𝑐ℎ𝑛𝑖𝑐𝑎𝑙 𝑒𝑣𝑒𝑛𝑡𝑠 𝑡𝑜 𝑡𝑒𝑠𝑡 𝑡ℎ𝑒 𝑠𝑘𝑖𝑙𝑙 𝑠𝑒𝑡 𝑜𝑓 𝑡ℎ𝑒 𝑝𝑎𝑟𝑡𝑖𝑐𝑖𝑝𝑎𝑛𝑡𝑠.𝐴 𝑠𝑡𝑎𝑔𝑒 𝑓𝑜𝑟 𝑒𝑥𝑝𝑟𝑒𝑠𝑠𝑖𝑛𝑔 𝑡ℎ𝑒𝑖𝑟 𝑡𝑎𝑙𝑒𝑛𝑡𝑠 𝑎𝑛𝑑 𝑡𝑜 𝑡𝑎𝑐𝑘𝑙𝑒 𝑡ℎ𝑒 𝑝𝑟𝑜𝑏𝑙𝑒𝑚𝑠 𝑔𝑖𝑣𝑒𝑛 𝑡𝑜 𝑡ℎ𝑒𝑚.𝐵𝑎𝑔 𝑡ℎ𝑒 𝑒𝑥𝑐𝑖𝑡𝑖𝑛𝑔 𝑐𝑎𝑠ℎ 𝑝𝑟𝑖𝑐𝑒𝑠 𝑡𝑜 𝑝𝑟𝑜𝑣𝑒 𝑦𝑜𝑢 𝑎𝑟𝑒 𝑚𝑎𝑠𝑡𝑒𝑟𝑚𝑖𝑛𝑑!𝐶𝑎𝑙𝑙𝑖𝑛𝑔 𝑎𝑙𝑙 𝑡ℎ𝑒 𝑒𝑛𝑡ℎ𝑢𝑠𝑖𝑎𝑠𝑡𝑠 𝑡𝑜 𝑡ℎ𝑖𝑠 𝑔𝑟𝑎𝑛𝑑𝑓𝑒𝑠𝑡!
       </p>
       
       <Countdown/>
@@ -43,16 +43,16 @@ const Homepage = ({setevent,home,events,contact,sponsors}) => {
           <Link to="/projectexpo" className='hover:text-yellow-500 hover:font-bold' >Project Expo</Link>
           <Link to="/roboracing" className='hover:text-yellow-500 hover:font-bold' >Robo Racing </Link>
         </div>:
-        <div className='text-center mt-4 mb-3 md:hidden'>𝑻𝒆𝒄𝒉𝒏𝒊𝒄𝒂𝒍 𝑒𝑣𝑒𝑛𝑡𝑠 𝑝𝑟𝑜𝑣𝑖𝑑𝑒 𝑎 𝑝𝑙𝑎𝑡𝑓𝑜𝑟𝑚 𝑡𝑜 𝑠ℎ𝑜𝑤𝑐𝑎𝑠𝑒 𝑡ℎ𝑒 𝑠𝑡𝑢𝑑𝑒𝑛𝑡'𝑠 𝑖𝑑𝑒𝑎𝑠 𝑎𝑛𝑑 𝑝𝑟𝑜𝑏𝑙𝑒𝑚 𝑠𝑜𝑙𝑣𝑖𝑛𝑔 𝑠𝑘𝑖𝑙𝑙𝑠. 𝑇ℎ𝑒𝑠𝑒 𝑒𝑣𝑒𝑛𝑡𝑠 𝑎𝑟𝑒 𝑜𝑟𝑔𝑎𝑛𝑖𝑧𝑒𝑑 𝑦𝑜 𝑏𝑟𝑖𝑛𝑔 𝑜𝑢𝑡 𝑖𝑛𝑛𝑜𝑣𝑎𝑡𝑖𝑣𝑒 𝑖𝑑𝑒𝑎𝑠 𝑓𝑟𝑜𝑚 𝑦𝑜𝑢𝑛𝑔 𝑚𝑖𝑛𝑑𝑠 𝑡𝑜 𝑠𝑜𝑙𝑣𝑒 𝑟𝑒𝑎𝑙-𝑡𝑖𝑚𝑒 𝑝𝑟𝑜𝑏𝑙𝑒𝑚𝑠.
+        <div className='text-center mt-4 mb-3 md:hidden'>𝑻𝒆𝒄𝒉𝒏𝒊𝒄𝒂𝒍 𝑒𝑣𝑒𝑛𝑡𝑠 𝑝𝑟𝑜𝑣𝑖𝑑𝑒 𝑎 𝑝𝑙𝑎𝑡𝑓𝑜𝑟𝑚 𝑡𝑜 𝑠ℎ𝑜𝑤𝑐𝑎𝑠𝑒 𝑡ℎ𝑒 𝑠𝑡𝑢𝑑𝑒𝑛𝑡'𝑠 𝑖𝑑𝑒𝑎𝑠 𝑎𝑛𝑑 𝑝𝑟𝑜𝑏𝑙𝑒𝑚 𝑠𝑜𝑙𝑣𝑖𝑛𝑔 𝑠𝑘𝑖𝑙𝑙𝑠. 𝑇ℎ𝑒𝑠𝑒 𝑒𝑣𝑒𝑛𝑡𝑠 𝑎𝑟𝑒 𝑜𝑟𝑔𝑎𝑛𝑖𝑧𝑒𝑑 𝑡𝑜 𝑏𝑟𝑖𝑛𝑔 𝑜𝑢𝑡 𝑖𝑛𝑛𝑜𝑣𝑎𝑡𝑖𝑣𝑒 𝑖𝑑𝑒𝑎𝑠 𝑓𝑟𝑜𝑚 𝑦𝑜𝑢𝑛𝑔 𝑚𝑖𝑛𝑑𝑠 𝑡𝑜 𝑠𝑜𝑙𝑣𝑒 𝑟𝑒𝑎𝑙-𝑡𝑖𝑚𝑒 𝑝𝑟𝑜𝑏𝑙𝑒𝑚𝑠.
         </div>}
         <button onClick={()=>settevent(!tevent)} className='py-1 px-2 bg-yellow-500 rounded-lg text-white md:hidden'>view</button>
-        <div className='text-center my-2 hidden md:block'>𝑻𝒆𝒄𝒉𝒏𝒊𝒄𝒂𝒍 𝑒𝑣𝑒𝑛𝑡𝑠 𝑝𝑟𝑜𝑣𝑖𝑑𝑒 𝑎 𝑝𝑙𝑎𝑡𝑓𝑜𝑟𝑚 𝑡𝑜 𝑠ℎ𝑜𝑤𝑐𝑎𝑠𝑒 𝑡ℎ𝑒 𝑠𝑡𝑢𝑑𝑒𝑛𝑡'𝑠 𝑖𝑑𝑒𝑎𝑠 𝑎𝑛𝑑 𝑝𝑟𝑜𝑏𝑙𝑒𝑚 𝑠𝑜𝑙𝑣𝑖𝑛𝑔 𝑠𝑘𝑖𝑙𝑙𝑠. 𝑇ℎ𝑒𝑠𝑒 𝑒𝑣𝑒𝑛𝑡𝑠 𝑎𝑟𝑒 𝑜𝑟𝑔𝑎𝑛𝑖𝑧𝑒𝑑 𝑦𝑜 𝑏𝑟𝑖𝑛𝑔 𝑜𝑢𝑡 𝑖𝑛𝑛𝑜𝑣𝑎𝑡𝑖𝑣𝑒 𝑖𝑑𝑒𝑎𝑠 𝑓𝑟𝑜𝑚 𝑦𝑜𝑢𝑛𝑔 𝑚𝑖𝑛𝑑𝑠 𝑡𝑜 𝑠𝑜𝑙𝑣𝑒 𝑟𝑒𝑎𝑙-𝑡𝑖𝑚𝑒 𝑝𝑟𝑜𝑏𝑙𝑒𝑚𝑠.
+        <div className='text-center my-2 hidden md:block'>𝑻𝒆𝒄𝒉𝒏𝒊𝒄𝒂𝒍 𝑒𝑣𝑒𝑛𝑡𝑠 𝑝𝑟𝑜𝑣𝑖𝑑𝑒 𝑎 𝑝𝑙𝑎𝑡𝑓𝑜𝑟𝑚 𝑡𝑜 𝑠ℎ𝑜𝑤𝑐𝑎𝑠𝑒 𝑡ℎ𝑒 𝑠𝑡𝑢𝑑𝑒𝑛𝑡'𝑠 𝑖𝑑𝑒𝑎𝑠 𝑎𝑛𝑑 𝑝𝑟𝑜𝑏𝑙𝑒𝑚 𝑠𝑜𝑙𝑣𝑖𝑛𝑔 𝑠𝑘𝑖𝑙𝑙𝑠. 𝑇ℎ𝑒𝑠𝑒 𝑒𝑣𝑒𝑛𝑡𝑠 𝑎𝑟𝑒 𝑜𝑟𝑔𝑎𝑛𝑖𝑧𝑒𝑑 𝑡𝑜 𝑏𝑟𝑖𝑛𝑔 𝑜𝑢𝑡 𝑖𝑛𝑛𝑜𝑣𝑎𝑡𝑖𝑣𝑒 𝑖𝑑𝑒𝑎𝑠 𝑓𝑟𝑜𝑚 𝑦𝑜𝑢𝑛𝑔 𝑚𝑖𝑛𝑑𝑠 𝑡𝑜 𝑠𝑜𝑙𝑣𝑒 𝑟𝑒𝑎𝑙-𝑡𝑖𝑚𝑒 𝑝𝑟𝑜𝑏𝑙𝑒𝑚𝑠.
 </div>
       </div>
       <div className='flex-col text-white text-left border-l-2 border-yellow-600 pl-4  hidden md:flex gap-2 my-auto'>
           <Link to="/paperpresentation" className='hover:text-yellow-500 hover:font-bold text-lg ' >Vision Quest </Link>
           <Link to="/projectexpo" className='hover:text-yellow-500 hover:font-bold text-lg' >Project Expo</Link>
-          <Link to="/circuitdebug" className='hover:text-yellow-500 hover:font-bold text-lg' >Circuit Debug</Link>
+          <Link to="/circuitdebug" className='hover:text-yellow-500 hover:font-bold text-lg' >Circuit Debugging</Link>
           <Link to="/roboracing" className='hover:text-yellow-500 hover:font-bold text-lg' >Robo Racing </Link>
         </div>
       </div>
@@ -104,7 +104,7 @@ const Homepage = ({setevent,home,events,contact,sponsors}) => {
     </div>
 
     <div className="flex flex-col lg:flex-row py-40" ref={sponsors} data-aos="fade-up">
-  <h1 className="text-2xl lg:text-4xl  font-bold text-center lg:self-start my-auto lg:transform lg:-rotate-90 text-yellow-600 lg:mr-20" id="sponsors">Sponsers</h1>
+  <h1 className="text-2xl lg:text-4xl  font-bold text-center lg:self-start my-auto lg:transform lg:-rotate-90 text-yellow-600 lg:mr-20" id="sponsors">Sponsors</h1>
   <div className="p-6 md:ml-10 grid grid-cols-2 gap-20 md:self-center">
   <img className='h-40 w-40' src={logo}/>
   <img className='h-40 w-40' src={logo}/>

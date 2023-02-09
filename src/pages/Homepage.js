@@ -148,7 +148,7 @@ const Homepage = ({setevent,home,events,contact,sponsors}) => {
       </div>
     </div>
     <div className='text-white text-xl text-center my-20' data-aos="fade-up">
-         <div className='mb-2'>Address:<span className='text-yellow-500'>'Velammal New Gen Park', Ambattur-Redhills road</span></div>
+         <div className='mb-2'>Address:<span className='text-yellow-500'>	VELAMMAL ENGINEERING COLLEGE , Chennai – 66</span></div>
 <a target='_blank' className='hover:text-yellow-500' href='https://www.google.com/maps/place/Velammal+Engineering+College,+Ambattur+Red+Hills+Rd,+Velammal+Nagar,+Surapet,+Chennai,+Tamil+Nadu+600066/@13.1206794,80.1822923,12z/data=!4m6!3m5!1s0x3a5264a10c856599:0xac3348f41097ba7f!8m2!3d13.1507697!4d80.1915618!16zL20vMDgwazFo?hl=en&gl=IN'>
 📍 click here for location
 </a>

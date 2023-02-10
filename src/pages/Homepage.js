@@ -8,6 +8,7 @@ import Countdown from '../component/calculateTime'
 import logo3 from '../assets/logo3.PNG'
 import logo4 from '../assets/logo4.PNG'
 import logo5 from '../assets/logo5.PNG'
+import logo6 from '../assets/logo6.PNG'
 
 const Homepage = ({setevent,home,events,contact,sponsors}) => {
   useEffect(()=>{
@@ -108,7 +109,7 @@ const Homepage = ({setevent,home,events,contact,sponsors}) => {
   <h1 className="text-2xl lg:text-4xl  font-bold text-center lg:self-start my-auto lg:transform lg:-rotate-90 text-yellow-600 lg:mr-20" id="sponsors">Sponsors</h1>
   <div className="p-6 md:ml-10 grid grid-cols-2 gap-20 md:self-center">
   <img className='h-40 w-40' src={logo5}/>
-  <img className='h-40 w-40' src={logo}/>
+  <img className='h-40 w-40' src={logo6}/>
   <img className='h-40 w-40' src={logo}/>
 
   <img className='h-40 w-40' src={logo}/>

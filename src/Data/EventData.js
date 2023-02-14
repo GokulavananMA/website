@@ -39,7 +39,7 @@ Topics:
     𝐖𝐈𝐍𝐍𝐄𝐑 - ₹1000/-
     𝐑𝐔𝐍𝐍𝐄𝐑 - ₹500/-
     `,
-    link:"https://docs.google.com/forms/d/1GYuepyKfNLAgfkVvrYxGQhayupMMuruUgocMDbNXMgQ/viewform?pli=1&pli=1&edit_requested=true",
+    link:"https://docs.google.com/forms/d/e/1FAIpQLSclLg4Qxz8yY9YQmkYGk3pQtDAVuwWGoV1VMRDyLx0YgEvswg/viewform",
     studentcoordinator:{name:"KARPAGAM - THAMIZHARASI - GANESH",phno:"7358500863 - 6369197557 - 6381796785"}
 },
 {
@@ -67,7 +67,7 @@ Topics:
 4.𝑃𝑎𝑟𝑡𝑖𝑐𝑖𝑝𝑎𝑛𝑡 𝑐𝑒𝑟𝑡𝑖𝑓𝑖𝑐𝑎𝑡𝑒 𝑤𝑖𝑙𝑙 𝑏𝑒 𝑝𝑟𝑜𝑣𝑖𝑑𝑒𝑑 𝑎𝑡 𝑡ℎ𝑒 𝑒𝑛𝑑 𝑜𝑓 𝑡ℎ𝑒 𝑒𝑣𝑒𝑛𝑡.
 5.𝐼𝑑𝑒𝑛𝑡𝑖𝑡𝑦 𝑐𝑎𝑟𝑑 𝑖𝑠 𝑀𝑎𝑛𝑑𝑎𝑡𝑜𝑟𝑦.
 6.𝐿𝑎𝑠𝑡 𝑑𝑎𝑡𝑒 𝑓𝑜𝑟 𝑡ℎ𝑒 𝑟𝑒𝑔𝑖𝑠𝑡𝑟𝑎𝑡𝑖𝑜𝑛 𝑖𝑠 17/02/2022.`,
-    link:"https://docs.google.com/forms/d/1GYuepyKfNLAgfkVvrYxGQhayupMMuruUgocMDbNXMgQ/viewform?pli=1&pli=1&edit_requested=true",
+    link:"https://docs.google.com/forms/d/e/1FAIpQLSclLg4Qxz8yY9YQmkYGk3pQtDAVuwWGoV1VMRDyLx0YgEvswg/viewform",
     staffcoordinator:{name:"",phno:""},
     studentcoordinator:{name:"SEDHURAM - SABAPATHI - AMRITHA",phno:"9655454769 - 9488729472 - 7397247238"}
 },
@@ -99,7 +99,7 @@ Topics:
 - 𝐸𝑎𝑐ℎ 𝑚𝑒𝑚𝑏𝑒𝑟 𝑜𝑓 𝑡ℎ𝑒 𝑡𝑒𝑎𝑚 𝑤𝑖𝑙𝑙 ℎ𝑎𝑣𝑒 𝑡𝑜 𝑟𝑒𝑔𝑖𝑠𝑡𝑒𝑟 𝑠𝑒𝑝𝑎𝑟𝑎𝑡𝑒𝑙𝑦.
     
 `,
-    link:"https://docs.google.com/forms/d/1GYuepyKfNLAgfkVvrYxGQhayupMMuruUgocMDbNXMgQ/viewform?pli=1&pli=1&edit_requested=true",
+    link:"https://docs.google.com/forms/d/e/1FAIpQLSclLg4Qxz8yY9YQmkYGk3pQtDAVuwWGoV1VMRDyLx0YgEvswg/viewform",
     staffcoordinator:{name:"",phno:""},
     studentcoordinator:{name:"PRIYA - VIGNESHWARAN - JEEVIKA",phno:"6383699176 - 6369574941 - 9360734141"}
 },
@@ -118,7 +118,7 @@ Topics:
     3.𝑃𝑎𝑟𝑡𝑖𝑐𝑖𝑝𝑎𝑛𝑡𝑠 𝑎𝑟𝑒 𝑛𝑜𝑡 𝑎𝑙𝑙𝑜𝑤𝑒𝑑 𝑡𝑜 𝑡𝑜𝑢𝑐ℎ 𝑡ℎ𝑒 𝑏𝑜𝑡 𝑑𝑢𝑟𝑖𝑛𝑔 𝑟𝑎𝑐𝑖𝑛𝑔.
     4.𝑇ℎ𝑒 𝑡𝑒𝑎𝑚𝑠 𝑐𝑎𝑛𝑛𝑜𝑡 𝑐ℎ𝑎𝑛𝑔𝑒 𝑏𝑎𝑡𝑡𝑒𝑟𝑖𝑒𝑠 𝑜𝑛𝑐𝑒 𝑡ℎ𝑒 𝑚𝑎𝑡𝑐ℎ ℎ𝑎𝑠 𝑠𝑡𝑎𝑟𝑡𝑒𝑑.
     5.𝑃𝑎𝑟𝑡𝑖𝑐𝑖𝑝𝑎𝑛𝑡𝑠 𝑠ℎ𝑜𝑢𝑙𝑑 𝑝𝑜𝑠𝑠𝑒𝑠 𝑎 𝑣𝑎𝑙𝑖𝑑 𝑖𝑑𝑒𝑛𝑡𝑖𝑡𝑦 𝑐𝑎𝑟𝑑 𝑓𝑟𝑜𝑚 𝑡ℎ𝑖𝑒𝑟 𝑟𝑒𝑠𝑝𝑒𝑐𝑡𝑖𝑣𝑒 𝑖𝑛𝑠𝑡𝑖𝑡𝑢𝑡𝑖𝑜𝑛. `,
-    link:"https://docs.google.com/forms/d/1GYuepyKfNLAgfkVvrYxGQhayupMMuruUgocMDbNXMgQ/viewform?pli=1&pli=1&edit_requested=true",
+    link:"https://docs.google.com/forms/d/e/1FAIpQLSclLg4Qxz8yY9YQmkYGk3pQtDAVuwWGoV1VMRDyLx0YgEvswg/viewform",
     staffcoordinator:{name:"",phno:""},
     studentcoordinator:{name:"DHANUSH KODI - JOAN DANIEL - JAGAN",phno:"6382161601 7550368602 7550368602"}
 },
@@ -139,7 +139,7 @@ Topics:
     4.𝑇ℎ𝑒 𝑡𝑒𝑎𝑚 𝑠ℎ𝑜𝑢𝑙𝑑 𝑎𝑛𝑠𝑤𝑒𝑟 𝑡ℎ𝑒 𝑞𝑢𝑒𝑠𝑡𝑖𝑜𝑛 𝑤𝑖𝑡ℎ𝑖𝑛 𝑡ℎ𝑒 𝑡𝑖𝑚𝑒𝑙𝑖𝑛𝑒 𝑝𝑟𝑜𝑣𝑖𝑑𝑒𝑑.
     5.𝑇ℎ𝑒 𝑤𝑖𝑛𝑛𝑖𝑛𝑔 𝑡𝑒𝑎𝑚 𝑤𝑖𝑙𝑙 𝑏𝑒 𝑝𝑟𝑜𝑚𝑜𝑡𝑒𝑑 𝑡𝑜 𝑠𝑒𝑚𝑖-𝑓𝑖𝑛𝑎𝑙𝑠 𝑎𝑛𝑑 𝑡ℎ𝑒 𝑠𝑎𝑚𝑒 𝑟𝑢𝑙𝑒 𝑤𝑖𝑙𝑙 𝑏𝑒 𝑎𝑝𝑝𝑙𝑖𝑐𝑎𝑏𝑙𝑒 𝑓𝑜𝑟 𝑡ℎ𝑒 𝑠𝑒𝑚𝑖𝑓𝑖𝑛𝑎𝑙𝑠 𝑎𝑛𝑑 𝑓𝑖𝑛𝑎𝑙𝑠.
     6.𝐼𝑛 𝑐𝑎𝑠𝑒 𝑜𝑓 𝑐ℎ𝑒𝑎𝑡𝑖𝑛𝑔 𝑡ℎ𝑒 𝑡𝑒𝑎𝑚 𝑤𝑖𝑙𝑙 𝑏𝑒 𝑑𝑖𝑟𝑒𝑐𝑡𝑙𝑦 𝑒𝑙𝑖𝑚𝑖𝑛𝑎𝑡𝑒𝑑 𝑓𝑟𝑜𝑚 𝑡ℎ𝑒 𝑒𝑣𝑒𝑛𝑡.`,
-    link:"https://docs.google.com/forms/d/1GYuepyKfNLAgfkVvrYxGQhayupMMuruUgocMDbNXMgQ/viewform?pli=1&pli=1&edit_requested=true",
+    link:"https://docs.google.com/forms/d/e/1FAIpQLSclLg4Qxz8yY9YQmkYGk3pQtDAVuwWGoV1VMRDyLx0YgEvswg/viewform",
     staffcoordinator:{name:"",phno:""},
     studentcoordinator:{name:"PARVATHANI - PUGAZHANTHI - SIDDHARTH",phno:"9655255722 - 6381064804 - 9080966868"}
 },
@@ -168,7 +168,7 @@ Topics:
 
 𝑹𝒐𝒖𝒏𝒅-3 (𝑃𝑖𝑐𝑡𝑜-𝐶𝑟𝑎𝑐𝑘𝑖𝑛𝑔)
 -𝐹𝑖𝑛𝑑 𝑡ℎ𝑒 𝑠𝑜𝑛𝑔'𝑠 𝑛𝑎𝑚𝑒 𝑡ℎ𝑟𝑜𝑢𝑔ℎ 𝑡ℎ𝑒 𝑑𝑖𝑠𝑝𝑙𝑎𝑦𝑒𝑑 𝑝𝑖𝑐𝑡𝑢𝑟𝑒.`,
-    link:"https://docs.google.com/forms/d/1GYuepyKfNLAgfkVvrYxGQhayupMMuruUgocMDbNXMgQ/viewform?pli=1&pli=1&edit_requested=true",
+    link:"https://docs.google.com/forms/d/e/1FAIpQLSclLg4Qxz8yY9YQmkYGk3pQtDAVuwWGoV1VMRDyLx0YgEvswg/viewform",
     staffcoordinator:{name:"",phno:""},
     studentcoordinator:{name:"VIBINKUMAR - MAHATHI - SHANMUGA PRIYA",phno:"9360249708 - 6385106324 - 9791082160"}
 },
@@ -201,7 +201,7 @@ Topics:
     -𝐸𝑎𝑐ℎ 𝑡𝑒𝑎𝑚 𝑠ℎ𝑜𝑢𝑙𝑑 𝑐ℎ𝑜𝑜𝑠𝑒 𝑡ℎ𝑒 𝑐𝑜𝑟𝑟𝑒𝑐𝑡 𝑎𝑐𝑡𝑜𝑟 𝑖𝑚𝑎𝑔𝑒𝑠 𝑓𝑟𝑜𝑚 𝑡ℎ𝑒 𝑔𝑖𝑣𝑒𝑛 𝑜𝑝𝑡𝑖𝑜𝑛.
     
     `,
-    link:"https://docs.google.com/forms/d/1GYuepyKfNLAgfkVvrYxGQhayupMMuruUgocMDbNXMgQ/viewform?pli=1&pli=1&edit_requested=true",
+    link:"https://docs.google.com/forms/d/e/1FAIpQLSclLg4Qxz8yY9YQmkYGk3pQtDAVuwWGoV1VMRDyLx0YgEvswg/viewform",
     staffcoordinator:{name:"",phno:""},
     studentcoordinator:{name:"CATHRINE DEBORAH - SUGUNESAN - ROSHINI",phno:"8248477332 - 9176653982 - 8122899660"}
 },
@@ -229,7 +229,7 @@ Topics:
     
     𝑅𝑜𝑢𝑛𝑑 3:
     -𝐸𝑥𝑝𝑒𝑐𝑡 𝑡ℎ𝑒 𝑢𝑛𝑒𝑥𝑝𝑒𝑐𝑡𝑒𝑑 𝑡𝑜 𝑢𝑛𝑓𝑜𝑙𝑑 𝑡ℎ𝑒 𝑚𝑦𝑠𝑡𝑒𝑟𝑖𝑜𝑢𝑠 𝑚𝑦𝑠𝑡𝑒𝑟𝑦.`,
-    link:"https://docs.google.com/forms/d/1GYuepyKfNLAgfkVvrYxGQhayupMMuruUgocMDbNXMgQ/viewform?pli=1&pli=1&edit_requested=true",
+    link:"https://docs.google.com/forms/d/e/1FAIpQLSclLg4Qxz8yY9YQmkYGk3pQtDAVuwWGoV1VMRDyLx0YgEvswg/viewform",
     staffcoordinator:{name:"",phno:""},
     studentcoordinator:{name:"M SYED MEERAN - R NIVETHA - T THAKSHANA",phno:"8925405913 - 7639321092 - 9345633797"}
 },
@@ -270,7 +270,7 @@ Topics:
     4.𝑅𝑢𝑙𝑒𝑠 𝐹𝑜𝑟 𝐶𝑙𝑎𝑠ℎ 𝑆𝑞𝑢𝑎𝑑:
      •𝑁𝑜 𝑟𝑢𝑙𝑒𝑠 𝑎𝑛𝑑 𝑛𝑜 𝑛𝑎𝑑𝑒𝑠.
      •𝐶ℎ𝑎𝑟𝑎𝑐𝑡𝑒𝑟 𝑠𝑘𝑖𝑙𝑙 𝑜𝑓𝑓.`,
-    link:"https://docs.google.com/forms/d/1GYuepyKfNLAgfkVvrYxGQhayupMMuruUgocMDbNXMgQ/viewform?pli=1&pli=1&edit_requested=true",
+    link:"https://docs.google.com/forms/d/e/1FAIpQLSclLg4Qxz8yY9YQmkYGk3pQtDAVuwWGoV1VMRDyLx0YgEvswg/viewform",
     staffcoordinator:{name:"",phno:""},
     studentcoordinator:{name:"GOKULAVANAN - ROSHAN",phno:"9677646631 - 9884192828"}
 },
@@ -294,7 +294,7 @@ Topics:
     •𝑈𝑝𝑙𝑜𝑎𝑑 𝑟𝑒𝑠𝑜𝑙𝑢𝑡𝑖𝑜𝑛 𝑢𝑝𝑡𝑜8𝑘(ℎ𝑖𝑔ℎ𝑒𝑟 𝑟𝑒𝑠𝑜𝑙𝑢𝑡𝑖𝑜𝑛 𝑟𝑒𝑐𝑜𝑚𝑚𝑒𝑛𝑑𝑒𝑑).
     •𝑇ℎ𝑒 𝑑𝑒𝑐𝑖𝑠𝑖𝑜𝑛 𝑜𝑓 𝑡ℎ𝑒 𝑗𝑢𝑑𝑔𝑒 𝑖𝑠 𝑓𝑖𝑛𝑎𝑙.
     •𝑀𝑜𝑏𝑖𝑙𝑒 𝑎𝑛𝑑 𝑐𝑎𝑚𝑒𝑟𝑎 𝑝ℎ𝑜𝑡𝑜𝑔𝑟𝑎𝑝ℎ𝑠 𝑜𝑛𝑙𝑦.𝐷𝑖𝑔𝑖𝑡𝑎𝑙𝑙𝑦 𝑐𝑟𝑒𝑎𝑡𝑒𝑑 𝑖𝑚𝑎𝑔𝑒𝑠 𝑎𝑟𝑒 𝑠𝑡𝑟𝑖𝑐𝑡𝑙𝑦 𝑝𝑟𝑜ℎ𝑖𝑏𝑖𝑡𝑒𝑑.`,
-    link:"https://docs.google.com/forms/d/1GYuepyKfNLAgfkVvrYxGQhayupMMuruUgocMDbNXMgQ/viewform?pli=1&pli=1&edit_requested=true",
+    link:"https://docs.google.com/forms/d/e/1FAIpQLSclLg4Qxz8yY9YQmkYGk3pQtDAVuwWGoV1VMRDyLx0YgEvswg/viewform",
     staffcoordinator:{name:"",phno:""},
     studentcoordinator:{name:"RITHVIK SIAM - NIRANJAN - GOPIKRISHNAN",phno:"9843012369 - 8428616943 - 8300029383"}
 }]

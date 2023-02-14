@@ -9,6 +9,8 @@ import logo3 from '../assets/logo3.PNG'
 import logo4 from '../assets/logo4.PNG'
 import logo5 from '../assets/logo5.PNG'
 import logo6 from '../assets/logo6.PNG'
+import logo7 from '../assets/logo7.PNG'
+import logo8 from '../assets/logo8.PNG'
 
 const Homepage = ({setevent,home,events,contact,sponsors}) => {
   useEffect(()=>{
@@ -110,9 +112,9 @@ const Homepage = ({setevent,home,events,contact,sponsors}) => {
   <div className="p-6 md:ml-10 grid grid-cols-2 gap-20 md:self-center">
   <img className='h-40 w-40' src={logo5}/>
   <img className='h-40 w-40' src={logo6}/>
-  <img className='h-40 w-40' src={logo}/>
+  <img className='h-40 w-40' src={logo7}/>
 
-  <img className='h-40 w-40' src={logo}/>
+  <img className='h-40 w-40' src={logo8}/>
 
 
   </div>

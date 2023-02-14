@@ -21,13 +21,13 @@ const Eventpage = ({event,rules,prize,phno}) => {
       <div className='text-bold text-center text-xl capitalize text-yellow-400 my-10'>{data[event].name}</div>
       </div>
 
-      <div className='md:px-20' data-aos="fade-up">
+      <div className='md:px-20 text-yellow' data-aos="fade-up">
       <p className='text-white text-xl'>{data[event].description.split("\n").map((text)=>(
         <>{text}<br/></>
       ))}</p>
       {data[event].prize===""?<></>:
       <div className='mt-10 px-5'>
-          <h1 className='text-xl'>Prize</h1>
+          <h1 className='text-xl'>𝐏𝐑𝐈𝐙𝐄</h1>
           <p>
           {data[event].prize.split("\n").map((text)=>(
         <>{text}<br/></>

@@ -296,5 +296,5 @@ Topics:
     •𝑀𝑜𝑏𝑖𝑙𝑒 𝑎𝑛𝑑 𝑐𝑎𝑚𝑒𝑟𝑎 𝑝ℎ𝑜𝑡𝑜𝑔𝑟𝑎𝑝ℎ𝑠 𝑜𝑛𝑙𝑦.𝐷𝑖𝑔𝑖𝑡𝑎𝑙𝑙𝑦 𝑐𝑟𝑒𝑎𝑡𝑒𝑑 𝑖𝑚𝑎𝑔𝑒𝑠 𝑎𝑟𝑒 𝑠𝑡𝑟𝑖𝑐𝑡𝑙𝑦 𝑝𝑟𝑜ℎ𝑖𝑏𝑖𝑡𝑒𝑑.`,
     link:"https://docs.google.com/forms/d/e/1FAIpQLSclLg4Qxz8yY9YQmkYGk3pQtDAVuwWGoV1VMRDyLx0YgEvswg/viewform",
     staffcoordinator:{name:"",phno:""},
-    studentcoordinator:{name:"RITHVIK SIAM - NIRANJAN - GOPIKRISHNAN",phno:"9843012369 - 8428616943 - 8300029383"}
+    studentcoordinator:{name:"RITHVIK SIAM - NIRANJAN - GOPIKRISHNAN",phno:"9843012369 - 9025991894 - 8300029383"}
 }]
